@@ -1,0 +1,639 @@
+{
+  "timezone": "Europe/Paris",
+  "previewAllowed": false,
+  "preview": false,
+  "modules": [
+    {
+      "id": 1,
+      "releaseAt": "2026-10-14T07:00:00+02:00",
+      "released": false,
+      "available": true,
+      "readings": [],
+      "concepts": [
+        {
+          "title": "God keeps his promises",
+          "reference": "2 Samuel 7:8–16 · Luke 1:26–38",
+          "week": 1,
+          "image": "concept-promises.webp",
+          "alt": "A symbolic Low Poly scene of an elderly traveller looking towards a star-filled sky, recalling God’s promise to Abraham.",
+          "text": "God made promises to King David, the prophets kept them alive, and in Jesus those promises come true.",
+          "terms": [
+            "Covenant",
+            "Promise",
+            "Fulfilment",
+            "House",
+            "Faithfulness"
+          ],
+          "index": 0
+        },
+        {
+          "title": "The King and his kingdom",
+          "reference": "Isaiah 9:1–7 · Micah 5:1–5a · Luke 1:26–38",
+          "week": 2,
+          "image": "concept-kingdom.webp",
+          "alt": "A shepherd guides his flock through an open gateway, illustrating the promised King’s care for his people.",
+          "text": "Jesus is a different kind of King, and He brings a different kind of kingdom.",
+          "terms": [
+            "Kingdom",
+            "Sovereignty",
+            "Justice",
+            "Peace",
+            "Shepherd"
+          ],
+          "index": 1
+        },
+        {
+          "title": "Salvation for all nations",
+          "reference": "Isaiah 49:1–6 · Luke 2:21–38",
+          "week": 4,
+          "image": "concept-nations.webp",
+          "text": "God’s salvation starts with Israel, but it was always meant to reach the whole world.",
+          "terms": [
+            "Nations",
+            "Gentiles",
+            "Salvation",
+            "Reconciliation",
+            "Church",
+            "Witness"
+          ],
+          "index": 2,
+          "alt": "Travellers from different peoples meet beside an olive tree overlooking the sea, symbolising salvation reaching the nations."
+        }
+      ],
+      "reading": {
+        "title": "The World Is Waiting",
+        "introduction": "God made promises to King David, the prophets kept them alive, and in Jesus those promises come true.",
+        "sections": [
+          {
+            "id": "theme-0",
+            "title": "God keeps his promises",
+            "image": "concept-promises.webp",
+            "alt": "A symbolic Low Poly scene of an elderly traveller looking towards a star-filled sky, recalling God’s promise to Abraham.",
+            "blocks": [
+              {
+                "kind": "quote",
+                "text": "Behold, you will conceive in your womb and give birth to a son, and shall name him ‘Jesus.’ He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, and he will reign over the house of Jacob forever. There will be no end to his Kingdom.",
+                "reference": "Luke 1:31–33 · WEB"
+              },
+              {
+                "kind": "paragraph",
+                "text": "In 2 Samuel 7, God promises David three things: a house (a family line of kings), a kingdom and a throne. And He uses the word “forever” three times."
+              },
+              {
+                "kind": "paragraph",
+                "text": "House, kingdom, throne. The same promise God gave David through the prophet Nathan now comes back in Gabriel’s message to Mary."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke wants us to see this clearly. The God who made promises to David is the same God who now sends Gabriel to the town of Nazareth. The promises were waiting, and this child is their answer."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Look at what happens here. David wanted to build a house for God, a temple. But God answers, in a sense, “No, I will build a house for you,” a family of kings. God is not making a deal with David. The idea comes completely from God. This is grace, a gift David did not earn."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Micah lived at the same time as Isaiah, and he adds a place, Bethlehem. Not Jerusalem, the capital city, but David’s small hometown. The coming ruler will be a shepherd, like David once was."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Micah says this ruler’s “goings out are from of old, from ancient times.” Many Christians see here a hint that this ruler existed before He was born. He is not just another king from David’s family. He is the eternal Son of God coming into our history."
+              },
+              {
+                "kind": "paragraph",
+                "text": "In Luke 1, Gabriel brings all these threads together. Jesus will receive David’s throne, He will reign forever, and His kingdom will never end. Luke is not collecting random verses. He is showing us one plan. God started it with David, kept it alive through the prophets, and now it is arriving in Jesus."
+              },
+              {
+                "kind": "paragraph",
+                "text": "God keeps His promises. This is the heart of this study. The long centuries between David and Jesus may look like silence or failure, but they were not. God was at work through the prophets, through the exile and through the slow decline of David’s family of kings, always pointing forward to Jesus."
+              }
+            ]
+          },
+          {
+            "id": "theme-1",
+            "title": "The King and his kingdom",
+            "image": "concept-kingdom.webp",
+            "alt": "A shepherd guides his flock through an open gateway, illustrating the promised King’s care for his people.",
+            "blocks": [
+              {
+                "kind": "quote",
+                "text": "For a child is born to us. A son is given to us; and the government will be on his shoulders. His name will be called ... Prince of Peace. Of the increase of his government and of peace there shall be no end, on David’s throne, and on his kingdom, to establish it, and to uphold it with justice and with righteousness from that time on, even forever.",
+                "reference": "Isaiah 9:6–7 · WEB · excerpt"
+              },
+              {
+                "kind": "paragraph",
+                "text": "The word “kingdom” keeps coming back, and it is never an ordinary kingdom. In 2 Samuel 7, it will be “made sure forever.” In Isaiah 9, there will be “no end” to it. In Luke 1, “There will be no end to his Kingdom.”"
+              },
+              {
+                "kind": "paragraph",
+                "text": "The kingdom of Jesus is completely different from human kingdoms. Human kings usually rule by force, receive power through their family and grow their land by war. In a way, the people carry the weight of the king’s power on their backs."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Isaiah 9 turns this picture around: “the government will be on his shoulders.” The people do not carry this King. This King carries His people."
+              },
+              {
+                "kind": "paragraph",
+                "text": "God promised David a throne that would last forever. But in history, David’s kingdom was split in two, then God’s people were taken into exile, and in the end no king from David’s family sat on the throne. It looked as if the promise had failed."
+              },
+              {
+                "kind": "paragraph",
+                "text": "The New Testament shows us that it had not failed. The forever throne is the throne where Jesus now sits as the risen King, in heaven and in the hearts of those who believe. Jesus said, “My Kingdom is not of this world” (John 18:36). This does not mean His kingdom is unreal or only an idea. It means His kingdom does not come from this world, and this world cannot limit it."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Christians understand the future of this kingdom in different ways. But all agree on this: Jesus is King now, and His kingdom will never end."
+              },
+              {
+                "kind": "paragraph",
+                "text": "This is why the name Prince of Peace matters so much. Possibly, the Hebrew word Isaiah uses for peace can be understood as wholeness and completeness, not only the end of war. Jesus brings this kind of peace. Sins are forgiven, justice is done and broken relationships are healed. His kingdom begins now, in the lives of those who trust Him, and it will last forever."
+              },
+              {
+                "kind": "paragraph",
+                "text": "If Jesus is King in this different way, our relationship with authority changes. We do not serve a distant ruler who does not care. We belong to a kingdom whose King serves us first. When we obey Christ, we are not bowing to force. We are answering the love of the One who carries us."
+              },
+              {
+                "kind": "paragraph",
+                "text": "In practice, this means we lead by serving, not by controlling others. We measure success by how much we help others grow, not by how much we collect for ourselves. And we trust that Christ’s kingdom, even if the world cannot see it, is more real and will last longer than any empire."
+              }
+            ]
+          },
+          {
+            "id": "theme-2",
+            "title": "Salvation for all nations",
+            "image": "concept-nations.webp",
+            "alt": "Travellers from different peoples meet beside an olive tree overlooking the sea, symbolising salvation reaching the nations.",
+            "blocks": [
+              {
+                "kind": "quote",
+                "text": "Now you are releasing your servant, Master, according to your word, in peace; for my eyes have seen your salvation, which you have prepared before the face of all peoples; a light for revelation to the nations, and the glory of your people Israel.",
+                "reference": "Luke 2:29–32 · WEB"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Notice how the circle grows. In Isaiah 49, the Servant is first connected with Israel: “You are my servant, Israel.” His first mission is to his own people, “to raise up the tribes of Jacob.”"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Then the text turns. That is not enough. God says, “It is too light a thing,” too small a task. “I will also give you as a light to the nations, that you may be my salvation to the end of the earth.”"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Now listen to Simeon in Luke 2. He holds baby Jesus in his arms and says, “My eyes have seen your salvation ... a light for revelation to the nations.” Almost the same words appear in both passages. Simeon is telling us that Jesus is the Servant Isaiah spoke about."
+              },
+              {
+                "kind": "paragraph",
+                "text": "His mission has two circles, one inside the other. First, He will bring Israel back to God. Then, He will become a light for all the nations."
+              },
+              {
+                "kind": "paragraph",
+                "text": "This is one of the clearest promises in the Old Testament that God’s salvation is not only for one people. And it was not a new idea. Long before, God had promised Abraham that all the families of the earth would be blessed through him (Genesis 12:3)."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke is preparing us for his second book, Acts. The good news that starts in Bethlehem does not stay in Bethlehem. It travels to Jerusalem, to Samaria, to Antioch, to Greece and all the way to Rome. In Acts 13, Paul and Barnabas even quote Isaiah 49:6 to explain why they take the gospel to the nations (Acts 13:47). The Servant’s mission passes from Jesus to His followers."
+              },
+              {
+                "kind": "paragraph",
+                "text": "This passage challenges the idea that Christianity is a private faith or the religion of one culture. From the very first moments of Jesus’ life, the gospel is for everyone. This shapes the way we welcome people who are different from us, people with other cultures, languages and backgrounds. The gospel does not belong to any one group of people."
+              },
+              {
+                "kind": "paragraph",
+                "text": "It also reminds us that our own calling, like the Servant’s, starts at home but does not end there. We serve the people close to us, and we also look outward. Being “a light” means sharing what we have received with people who have not yet seen it."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          "What has helped you keep trusting God during a long time of waiting?",
+          "How does the name Prince of Peace change the way you understand real peace?",
+          "How does knowing that Jesus is “a light for revelation to the nations” shape the way you see who belongs in the church?"
+        ],
+        "credit": "Teaching supplied for this study; grouped into module readings with the original paragraph wording preserved.",
+        "wordCount": 1433
+      }
+    },
+    {
+      "id": 2,
+      "releaseAt": "2026-11-11T07:00:00+01:00",
+      "released": false,
+      "available": true,
+      "readings": [],
+      "concepts": [
+        {
+          "title": "Waiting, listening and trusting",
+          "reference": "Luke 1:5–56 · Luke 2:21–38",
+          "week": 5,
+          "image": "concept-trusting.webp",
+          "alt": "An elderly woman inspired by Anna waits prayerfully in a sunlit temple courtyard.",
+          "text": "Zechariah, Mary, Elizabeth, Simeon and Anna show us different ways of receiving God’s word, from doubt to deep trust.",
+          "terms": [
+            "Faith",
+            "Grace",
+            "Hope",
+            "Mercy",
+            "Prayer",
+            "Obedience"
+          ],
+          "index": 3
+        }
+      ],
+      "reading": {
+        "title": "The Promise Takes a Name",
+        "introduction": "Zechariah, Mary, Elizabeth, Simeon and Anna show us different ways of receiving God’s word, from doubt to deep trust.",
+        "sections": [
+          {
+            "id": "theme-3",
+            "title": "Waiting, listening and trusting",
+            "image": "concept-trusting.webp",
+            "alt": "An elderly woman inspired by Anna waits prayerfully in a sunlit temple courtyard.",
+            "blocks": [
+              {
+                "kind": "quote",
+                "text": "But the angel said to him, “Don’t be afraid, Zacharias, because your request has been heard. Your wife, Elizabeth, will bear you a son, and you shall call his name John.” ... Zacharias said to the angel, “How can I be sure of this? For I am an old man, and my wife is well advanced in years.” The angel answered him, “I am Gabriel, who stands in the presence of God. I was sent to speak to you and to bring you this good news. Behold, you will be silent and not able to speak until the day that these things will happen, because you didn’t believe my words, which will be fulfilled in their proper time.”",
+                "reference": "Luke 1:13, 18–20 · WEB · excerpts"
+              },
+              {
+                "kind": "quote",
+                "text": "Mary said to the angel, “How can this be, seeing I am a virgin?” ... Mary said, “Behold, the servant of the Lord; let it be done to me according to your word.”",
+                "reference": "Luke 1:34, 38 · WEB · excerpts"
+              },
+              {
+                "kind": "quote",
+                "text": "When Elizabeth heard Mary’s greeting, the baby leaped in her womb; and Elizabeth was filled with the Holy Spirit. She called out with a loud voice and said, “Blessed are you among women, and blessed is the fruit of your womb! ... Blessed is she who believed, for there will be a fulfillment of the things which have been spoken to her from the Lord!”",
+                "reference": "Luke 1:41–42, 45 · WEB · excerpts"
+              },
+              {
+                "kind": "quote",
+                "text": "Behold, there was a man in Jerusalem whose name was Simeon. This man was righteous and devout, looking for the consolation of Israel, and the Holy Spirit was on him. It had been revealed to him by the Holy Spirit that he should not see death before he had seen the Lord’s Christ. He came in the Spirit into the temple. ... then he received him into his arms and blessed God, and said, “Now you are releasing your servant, Master, according to your word, in peace; for my eyes have seen your salvation ...” There was one Anna, a prophetess ... (she was of a great age, having lived with a husband seven years from her virginity, and she had been a widow for about eighty-four years), who didn’t depart from the temple, worshiping with fastings and petitions night and day. Coming up at that very hour, she gave thanks to the Lord, and spoke of him to all those who were looking for redemption in Jerusalem.",
+                "reference": "Luke 2:25–30, 36–38 · WEB · excerpts"
+              },
+              {
+                "kind": "paragraph",
+                "text": "These five people show us a whole range of responses to God’s word."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Zechariah doubts, and he cannot speak until the promise comes true."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Mary asks an honest question, “How can this be?” Then she says yes to God."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Elizabeth, filled with the Holy Spirit, recognizes what God is doing and speaks with joy."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Simeon has been waiting for God to comfort His people. When he finally holds Jesus, he blesses God."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Anna, a widow for many years, worships in the temple day and night. She arrives at the very moment Jesus is there, and she gives thanks."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Notice something important. God’s word moves forward no matter how people respond. Zechariah’s doubt does not stop John from being born. The promise was already made, and his unbelief only costs him his voice for a time. Mary’s question does not stop Gabriel either. He answers her and goes on. God’s word does not depend on how confident we feel."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Notice also where these people are. Zechariah is serving in the temple. Simeon comes into the temple. Anna never leaves the temple. Mary is in the small town of Nazareth. They are all in their ordinary places when God speaks. Luke is not showing us superheroes. He is showing us faithful people living their normal lives."
+              },
+              {
+                "kind": "heading",
+                "text": "Zechariah: asking for proof first"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke builds his first two chapters to show us two kinds of response. Zechariah does not reject God completely, but he asks for proof before he will believe. He wants a guarantee first."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Gabriel’s answer is clear. Zechariah will be silent “because you didn’t believe my words.” This is not an outburst of anger. It is a discipline, and also a fitting sign. He could not speak because he would not listen. And the story ends with grace. When John is born, Zechariah’s mouth is opened, and his first words are praise to God (Luke 1:64)."
+              },
+              {
+                "kind": "heading",
+                "text": "Mary: trusting before she understands"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Mary shows us the other way. She does not understand everything. She asks, “How can this be?” But she does not demand proof before she obeys. Her answer is a model of faith: “Behold, the servant of the Lord; let it be done to me according to your word.”"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Theologians have pointed out that Mary’s faith was not blind. She had Gabriel’s word. She had a sign, the pregnancy of her relative Elizabeth (Luke 1:36). And she knew the long story of God’s faithfulness to Israel. Faith receives God’s word as true and lets it shape our lives."
+              },
+              {
+                "kind": "heading",
+                "text": "Elizabeth: seeing God at work"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Elizabeth has already seen God keep His word in her own body. Filled with the Holy Spirit, she recognizes the Lord in Mary’s womb, and she says, “Blessed is she who believed, for there will be a fulfillment.” Mary believed first, and then she saw. Faith trusts God’s word before it sees the result."
+              },
+              {
+                "kind": "heading",
+                "text": "Simeon and Anna: the long obedience"
+              },
+              {
+                "kind": "paragraph",
+                "text": "God had told Simeon that he would see the Messiah before he died. He waited, perhaps for many years, without knowing when. When Jesus finally comes, Simeon does not complain or say, “At last!” He blesses God and says he can now go “in peace.”"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Anna had been a widow for about 84 years, and she never left the temple. Day and night she worshiped, fasted and prayed. She did not demand that God come on her schedule. She was simply there, faithful, when He came."
+              },
+              {
+                "kind": "heading",
+                "text": "Receiving God’s word as God’s word"
+              },
+              {
+                "kind": "paragraph",
+                "text": "The real question in this study is simple and deep. Do we receive God’s word as God’s word, or do we ask for extra guarantees before we trust Him? Zechariah wanted a guarantee, and he lost his voice for a season. Mary trusted a promise that seemed impossible, and she carried the Son of God."
+              },
+              {
+                "kind": "paragraph",
+                "text": "All of us live somewhere between these responses. Sometimes we doubt like Zechariah and want proof before we commit. Sometimes we ask honest questions like Mary, and then we trust. Sometimes we wait like Simeon and Anna, for years, not knowing when God will answer."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke shows these responses honestly, and he shows where each one leads. Honest questions are welcome. Doubt does not have to be the end of the story, as Zechariah’s song of praise shows. But Luke invites us to walk the path of faith that rests on God’s word, even before it sees."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          "When God’s word asks you to trust, do you tend to ask for proof first, like Zechariah, or to trust before you fully understand, like Mary?",
+          "What helps you wait faithfully when God’s promises seem slow?",
+          "Anna stayed faithful for many years before she saw Jesus. What could that kind of long faithfulness look like in your own life?"
+        ],
+        "credit": "Teaching supplied for this study; grouped into module readings with the original paragraph wording preserved.",
+        "wordCount": 1239
+      }
+    },
+    {
+      "id": 3,
+      "releaseAt": "2026-12-02T07:00:00+01:00",
+      "released": false,
+      "available": true,
+      "readings": [],
+      "concepts": [
+        {
+          "title": "God comes near in humility",
+          "reference": "Luke 1:26–38 · Luke 2:1–20 · Luke 2:39–52",
+          "week": 8,
+          "image": "concept-humility.webp",
+          "alt": "A symbolic scene of Jesus as a child learning beside Joseph in a humble workshop, illustrating his real human growth.",
+          "text": "The King of all creation is born in a feeding trough, and the first to hear the news are shepherds.",
+          "terms": [
+            "Incarnation",
+            "Son of God",
+            "Humanity of Christ",
+            "Humiliation",
+            "Mediator",
+            "Humility"
+          ],
+          "index": 4
+        }
+      ],
+      "reading": {
+        "title": "The King Enters the World",
+        "introduction": "The King of all creation is born in a feeding trough, and the first to hear the news are shepherds.",
+        "sections": [
+          {
+            "id": "theme-4",
+            "title": "God comes near in humility",
+            "image": "concept-humility.webp",
+            "alt": "A symbolic scene of Jesus as a child learning beside Joseph in a humble workshop, illustrating his real human growth.",
+            "blocks": [
+              {
+                "kind": "quote",
+                "text": "Now in those days, a decree went out from Caesar Augustus that all the world should be enrolled. ... Joseph also went up from Galilee, out of the city of Nazareth, into Judea, to David’s city, which is called Bethlehem, because he was of the house and family of David, to enroll himself with Mary, who was pledged to be married to him as wife, being pregnant. While they were there, the day had come for her to give birth. She gave birth to her firstborn son. She wrapped him in bands of cloth and laid him in a feeding trough, because there was no room for them in the inn.",
+                "reference": "Luke 2:1, 4–7 · WEB · excerpts"
+              },
+              {
+                "kind": "quote",
+                "text": "When the angels went away from them into the sky, the shepherds said to one another, “Let’s go to Bethlehem, now, and see this thing that has happened, which the Lord has made known to us.” They came with haste and found both Mary and Joseph, and the baby was lying in the feeding trough. ... The shepherds returned, glorifying and praising God for all the things that they had heard and seen, just as it was told them.",
+                "reference": "Luke 2:15–16, 20 · WEB · excerpts"
+              },
+              {
+                "kind": "quote",
+                "text": "I bring you good news of great joy which will be to all the people. For there is born to you today, in David’s city, a Savior, who is Christ the Lord. ... Glory to God in the highest, on earth peace, good will toward men.",
+                "reference": "Luke 2:10–11, 14 · WEB · excerpts"
+              },
+              {
+                "kind": "quote",
+                "text": "The people who walked in darkness have seen a great light. ... For a child is born to us. A son is given to us; and the government will be on his shoulders.",
+                "reference": "Isaiah 9:2, 6 · WEB · excerpts"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Notice the details Luke chooses. Jesus is laid in a feeding trough. There is no room for them in the inn. The first visitors are shepherds, people with a low place in society at that time. The news comes to simple workers in the fields, in the middle of the night."
+              },
+              {
+                "kind": "paragraph",
+                "text": "And yet the message is anything but small. The angel calls this baby “a Savior” and “Christ the Lord,” and the angels announce “on earth peace.” The highest truths about God are spoken in the lowest possible place."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke also puts two worlds side by side. On one side is the empire. Caesar Augustus sends out a decree to count the whole world. On the other side is a young couple. They travel to register, and the mother gives birth in a crowded town. The emperor’s decree, made to count and tax his people, is the very thing that brings Joseph and Mary to Bethlehem, exactly where Micah said the ruler would come from."
+              },
+              {
+                "kind": "heading",
+                "text": "The humility is the point"
+              },
+              {
+                "kind": "paragraph",
+                "text": "The humble birth of Jesus is not a small detail. It is the heart of the story. In the ancient world, gods and humility did not go together. Gods did not become poor, sleep where animals eat or depend on a human mother. The incarnation breaks this pattern completely. God does not come down as a conquering king, but as a helpless baby."
+              },
+              {
+                "kind": "heading",
+                "text": "Mighty God in a baby’s body"
+              },
+              {
+                "kind": "paragraph",
+                "text": "John’s Gospel says, “The Word became flesh and lived among us” (John 1:14). In Luke, we see what that looked like. The flesh was the body of a newborn, and His first bed was a feeding trough. Jesus began His life on earth unable to speak or walk, completely dependent on human care. The One called “Mighty God” (Isaiah 9:6) could not yet lift His own head."
+              },
+              {
+                "kind": "heading",
+                "text": "God lifts up the lowly"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke connects this humble birth to Mary’s song: “He has put down princes from their thrones, and has exalted the lowly” (Luke 1:52). The manger is the first picture of this. The mighty God is born to a young woman from a simple family, in a small town. The proud are passed by, and the shepherds are invited."
+              },
+              {
+                "kind": "heading",
+                "text": "The scandal of the incarnation"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Theologians call this “the scandal of the incarnation.” A scandal is something shocking, something that seems wrong to human eyes. That the eternal God would become a baby in a feeding trough turns our ideas of power upside down."
+              },
+              {
+                "kind": "paragraph",
+                "text": "If God comes near in humility, then humility is not a weakness to fix. It is a way of being close to God. We often think we must rise in status, income or success to be worthy of God’s attention. The incarnation shows the opposite. God comes to people who are low, not to people who think they are high."
+              },
+              {
+                "kind": "paragraph",
+                "text": "In daily life, this means we can serve God in small places that no one notices. We welcome people not because they are important, but because they are there. And we measure our lives not by how high we climb, but by how deeply we love."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          "What touches you most about God choosing to be born in a feeding trough and announced first to shepherds?",
+          "In what area of your life might God be inviting you to accept a low place as a place where He meets you?",
+          "How does the humble birth of Jesus challenge the way our culture thinks about status and success?"
+        ],
+        "credit": "Teaching supplied for this study; grouped into module readings with the original paragraph wording preserved.",
+        "wordCount": 920
+      }
+    },
+    {
+      "id": 4,
+      "releaseAt": "2026-12-30T07:00:00+01:00",
+      "released": false,
+      "available": true,
+      "readings": [],
+      "concepts": [
+        {
+          "title": "The Son and the Spirit",
+          "reference": "Luke 1:26–38 · Luke 2:21–38 · Luke 3:1–22",
+          "week": 12,
+          "image": "concept-son-spirit.webp",
+          "text": "Luke 1 to 3 shows us who Jesus really is, the Son of God, and the work of the Holy Spirit from the very beginning.",
+          "terms": [
+            "Trinity",
+            "Father",
+            "Holy Spirit",
+            "Repentance",
+            "Baptism",
+            "Holiness"
+          ],
+          "index": 5,
+          "alt": "Jesus prays in the Jordan beside John while a dove descends, illustrating the baptism scene in Luke 3."
+        }
+      ],
+      "reading": {
+        "title": "Thirty Years Later…",
+        "introduction": "Luke 1 to 3 shows us who Jesus really is, the Son of God, and the work of the Holy Spirit from the very beginning.",
+        "sections": [
+          {
+            "id": "theme-5",
+            "title": "The Son and the Spirit",
+            "image": "concept-son-spirit.webp",
+            "alt": "Jesus prays in the Jordan beside John while a dove descends, illustrating the baptism scene in Luke 3.",
+            "blocks": [
+              {
+                "kind": "quote",
+                "text": "He will be great and will be called the Son of the Most High. ... The angel answered her, “The Holy Spirit will come on you, and the power of the Most High will overshadow you. Therefore also the holy one who is born from you will be called the Son of God.”",
+                "reference": "Luke 1:32, 35 · WEB · excerpts"
+              },
+              {
+                "kind": "quote",
+                "text": "The child was growing, and was becoming strong in spirit, being filled with wisdom, and the grace of God was upon him.",
+                "reference": "Luke 2:40 · WEB"
+              },
+              {
+                "kind": "quote",
+                "text": "When they saw him, they were astonished; and his mother said to him, “Son, why have you treated us this way? Behold, your father and I were anxiously looking for you.” He said to them, “Why were you looking for me? Didn’t you know that I must be in my Father’s house?”",
+                "reference": "Luke 2:48–49 · WEB"
+              },
+              {
+                "kind": "quote",
+                "text": "John answered them all, “I indeed baptize you with water, but he comes who is mightier than I, the strap of whose sandals I am not worthy to loosen. He will baptize you in the Holy Spirit and fire.” ... and the Holy Spirit descended in a bodily form like a dove on him; and a voice came out of the sky, saying “You are my beloved Son. In you I am well pleased.”",
+                "reference": "Luke 3:16, 22 · WEB · excerpts"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke shows us who Jesus is step by step, one layer at a time. In Luke 1:32, Gabriel calls Him “the Son of the Most High.” In Luke 1:35, he explains that the Holy Spirit and the power of the Most High will bring about this pregnancy, and therefore the child “will be called the Son of God.”"
+              },
+              {
+                "kind": "paragraph",
+                "text": "These two titles are close, but they are not the same. “Son of the Most High” points to Jesus as the King from David’s family. “Son of God” points to where He comes from, God Himself."
+              },
+              {
+                "kind": "paragraph",
+                "text": "In Luke 2:40, we see His human side. The child grows, becomes strong and is filled with wisdom. Then, at twelve years old, Jesus says something surprising: “my Father’s house.” Mary has just said “your father and I,” speaking about Joseph. Jesus gently points to another Father, God, whose house is the temple."
+              },
+              {
+                "kind": "paragraph",
+                "text": "At His baptism in Luke 3, everything comes together. The Holy Spirit comes down on Him “in a bodily form like a dove.” A voice from heaven says, “You are my beloved Son. In you I am well pleased.” This is the first time in Luke that God the Father speaks directly about who Jesus is."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Notice also the words of John the Baptist. He is not the Christ. He says he is not even worthy to untie Jesus’ sandals. John prepares the way. Jesus is the way."
+              },
+              {
+                "kind": "heading",
+                "text": "From a king’s title to God’s own Son"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke chooses his words with great care. In the Old Testament, God spoke of the king from David’s family as His “son.” About David’s son, God said, “I will be his father, and he will be my son” (2 Samuel 7:14). When a new king began to reign, it was as if God adopted him."
+              },
+              {
+                "kind": "paragraph",
+                "text": "But in Luke 1:35, the meaning goes much deeper. Jesus is not the Son of God by adoption or by a royal ceremony. He is the Son of God by nature, by who He has always been. His conception by the Holy Spirit, a true miracle, shows it."
+              },
+              {
+                "kind": "heading",
+                "text": "A first glimpse of the Trinity"
+              },
+              {
+                "kind": "paragraph",
+                "text": "In Gabriel’s words to Mary, we already meet the Father (the Most High), the Son (Jesus) and the Holy Spirit. The Spirit comes upon Mary, the power of the Most High covers her, and the child is called the Son of God. Luke does not explain the full teaching of the Trinity here, but this is part of the biblical foundation on which it stands."
+              },
+              {
+                "kind": "heading",
+                "text": "A boy who knows who He is"
+              },
+              {
+                "kind": "paragraph",
+                "text": "When Jesus speaks of “my Father’s house” at twelve, He shows that He knows who He is, even before others understand it. Luke tells us that Mary and Joseph “didn’t understand the saying” (Luke 2:50). Jesus knows that God is His Father in a unique way, and that He belongs in His Father’s house."
+              },
+              {
+                "kind": "heading",
+                "text": "The Father, the Son and the Spirit together"
+              },
+              {
+                "kind": "paragraph",
+                "text": "The baptism completes the picture. John announces that Jesus, not John, will baptize with the Holy Spirit and fire. Then the Spirit comes down in a form people can see, and the Father’s voice is heard. The Father speaks, the Spirit comes down, and the Son is named. All three are present in one moment."
+              },
+              {
+                "kind": "heading",
+                "text": "The Trinity at the baptism of Jesus"
+              },
+              {
+                "kind": "paragraph",
+                "text": "Luke 3:21 to 22 is like a small window into the Trinity: one God in three persons, all present together. The Father speaks from heaven. The Spirit comes down like a dove. The Son is praying, ready to begin His mission."
+              },
+              {
+                "kind": "paragraph",
+                "text": "Almost three hundred years later, at the Council of Nicaea in the year 325, the church put this truth into careful words. It confessed that Jesus is true God, of the same nature as the Father. But the foundation was already here, in Luke’s story."
+              },
+              {
+                "kind": "paragraph",
+                "text": "If Jesus is the Son of God by nature, not by achievement or adoption but by who He is, then our relationship with Him is more than admiration for a great teacher. It is a response to God Himself. Jesus is not someone who found God. He is God who came to find us."
+              },
+              {
+                "kind": "paragraph",
+                "text": "The Holy Spirit is also present from the very beginning. The Spirit does not first appear at Pentecost. The Spirit is there at the conception of Jesus. This means the Spirit’s work is not an extra in the Christian life. It is woven into the whole story of salvation, and into our own lives too."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          "What difference does it make to you that Jesus is the Son of God by nature, God from the very beginning, and not a man who became divine?",
+          "How does knowing that the Holy Spirit was present at the conception of Jesus change the way you think about the Spirit’s work in your own life?",
+          "At twelve, Jesus knew He belonged in His Father’s house. How can His example help you know your own identity as a child of God?"
+        ],
+        "credit": "Teaching supplied for this study; grouped into module readings with the original paragraph wording preserved.",
+        "wordCount": 1100
+      }
+    }
+  ],
+  "review": true
+}
