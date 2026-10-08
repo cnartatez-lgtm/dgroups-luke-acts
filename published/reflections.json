@@ -5,25 +5,25 @@
   "modules": [
     {
       "id": 1,
-      "releaseAt": "2026-10-14T07:00:00+02:00",
+      "releaseAt": "2026-11-09T07:00:00+01:00",
       "released": false,
       "available": false
     },
     {
       "id": 2,
-      "releaseAt": "2026-11-11T07:00:00+01:00",
+      "releaseAt": "2026-11-30T07:00:00+01:00",
       "released": false,
       "available": false
     },
     {
       "id": 3,
-      "releaseAt": "2026-12-02T07:00:00+01:00",
+      "releaseAt": "2026-12-28T07:00:00+01:00",
       "released": false,
       "available": false
     },
     {
       "id": 4,
-      "releaseAt": "2026-12-30T07:00:00+01:00",
+      "releaseAt": "2027-01-04T07:00:00+01:00",
       "released": false,
       "available": false
     }

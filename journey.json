@@ -1,0 +1,678 @@
+{
+  "version": 1,
+  "storyUnlock": "completion-or-calendar",
+  "storyDates": {
+    "1": "2026-11-09T07:00:00+01:00",
+    "2": "2026-11-30T07:00:00+01:00",
+    "3": "2026-12-28T07:00:00+01:00",
+    "4": "2027-01-04T07:00:00+01:00"
+  },
+  "seriesCover": {
+    "image": "series-mosaic.webp",
+    "alt": "A faceted mosaic joins a Bethlehem dwelling, a winding road and distant shores."
+  },
+  "sessions": [
+    {
+      "number": 1,
+      "image": "session-01.webp",
+      "alt": "David sits in prayer beside Nathan near a tent sanctuary, with Jerusalem and the sheep hills beyond.",
+      "narrativeQuestion": "What do the promise to David and these scenes show about the difference between wanting a king and needing a faithful, lasting King?",
+      "connections": [
+        {
+          "reference": "1 Samuel 8:5–6",
+          "title": "Israel asks for a king",
+          "lens": "Before David",
+          "prompt": "What do the elders ask for, and what do their words suggest they hope a king will provide?",
+          "url": "https://ebible.org/eng-web/1SA08.htm#V5",
+          "verses": [
+            {
+              "key": "1Sam.8.5",
+              "verse": 5,
+              "text": "They said to him, “Behold, you are old, and your sons don’t walk in your ways. Now make us a king to judge us like all the nations.”"
+            },
+            {
+              "key": "1Sam.8.6",
+              "verse": 6,
+              "text": "But the thing displeased Samuel when they said, “Give us a king to judge us.” Samuel prayed to Yahweh."
+            }
+          ]
+        },
+        {
+          "reference": "1 Kings 11:34–36",
+          "title": "A divided kingdom and a continuing promise",
+          "lens": "A later scene in Israel’s story",
+          "prompt": "This later promise is spoken as the kingdom faces division. What will be lost, and what does God still preserve for David’s line?",
+          "url": "https://ebible.org/eng-web/1KI11.htm#V34",
+          "verses": [
+            {
+              "key": "1Kgs.11.34",
+              "verse": 34,
+              "text": "“ ‘However, I will not take the whole kingdom out of his hand, but I will make him prince all the days of his life for David my servant’s sake whom I chose, who kept my commandments and my statutes,"
+            },
+            {
+              "key": "1Kgs.11.35",
+              "verse": 35,
+              "text": "but I will take the kingdom out of his son’s hand and will give it to you, even ten tribes."
+            },
+            {
+              "key": "1Kgs.11.36",
+              "verse": 36,
+              "text": "I will give one tribe to his son, that David my servant may have a lamp always before me in Jerusalem, the city which I have chosen for myself to put my name there."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "image": "session-02.webp",
+      "alt": "A family leaves the shadow of a broken yoke and walks towards dawn over the Galilean hills.",
+      "narrativeQuestion": "What kind of darkness needs more than a change of circumstances, and how does Isaiah describe the rule that can answer it?",
+      "connections": [
+        {
+          "reference": "Isaiah 8:19–22",
+          "title": "A people searching in the dark",
+          "lens": "The chapter immediately before this study",
+          "prompt": "Where are people looking for guidance, and what happens when they do not speak according to God’s word?",
+          "url": "https://ebible.org/eng-web/ISA08.htm#V19",
+          "verses": [
+            {
+              "key": "Isa.8.19",
+              "verse": 19,
+              "text": "When they tell you, “Consult with those who have familiar spirits and with the wizards, who chirp and who mutter,” shouldn’t a people consult with their God? Should they consult the dead on behalf of the living?"
+            },
+            {
+              "key": "Isa.8.20",
+              "verse": 20,
+              "text": "Turn to the law and to the covenant! If they don’t speak according to this word, surely there is no morning for them."
+            },
+            {
+              "key": "Isa.8.21",
+              "verse": 21,
+              "text": "They will pass through it, very distressed and hungry. It will happen that when they are hungry, they will worry, and curse their king and their God. They will turn their faces upward,"
+            },
+            {
+              "key": "Isa.8.22",
+              "verse": 22,
+              "text": "then look to the earth and see distress, darkness, and the gloom of anguish. They will be driven into thick darkness."
+            }
+          ]
+        },
+        {
+          "reference": "Isaiah 9:13–17",
+          "title": "The wound is also spiritual",
+          "lens": "Later in the same chapter",
+          "prompt": "What does Isaiah say about the people’s response to God and about those who lead them? How does this deepen the need for the ruler in verses 6–7?",
+          "url": "https://ebible.org/eng-web/ISA09.htm#V13",
+          "verses": [
+            {
+              "key": "Isa.9.13",
+              "verse": 13,
+              "text": "Yet the people have not turned to him who struck them, neither have they sought Yahweh of Armies."
+            },
+            {
+              "key": "Isa.9.14",
+              "verse": 14,
+              "text": "Therefore Yahweh will cut off from Israel head and tail, palm branch and reed, in one day."
+            },
+            {
+              "key": "Isa.9.15",
+              "verse": 15,
+              "text": "The elder and the honorable man is the head, and the prophet who teaches lies is the tail."
+            },
+            {
+              "key": "Isa.9.16",
+              "verse": 16,
+              "text": "For those who lead this people lead them astray; and those who are led by them are destroyed."
+            },
+            {
+              "key": "Isa.9.17",
+              "verse": 17,
+              "text": "Therefore the Lord will not rejoice over their young men, neither will he have compassion on their fatherless and widows; for everyone is profane and an evildoer, and every mouth speaks folly. For all this his anger is not turned away, but his hand is stretched out still."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "image": "session-03.webp",
+      "alt": "A shepherd overlooks a small Bethlehem village and a peaceful flock while a larger city stands in the distance.",
+      "narrativeQuestion": "How do a small town, a vulnerable people and the promise of a shepherd help us recognise the kind of King the world needs?",
+      "connections": [
+        {
+          "reference": "Micah 4:9–10",
+          "title": "Fear, exile and rescue",
+          "lens": "The chapter immediately before this study",
+          "prompt": "What are the people facing, and where does Micah say that rescue will come? Let their distress give weight to the promise of a shepherd.",
+          "url": "https://ebible.org/eng-web/MIC04.htm#V9",
+          "verses": [
+            {
+              "key": "Mic.4.9",
+              "verse": 9,
+              "text": "Now why do you cry out aloud? Is there no king in you? Has your counselor perished, that pains have taken hold of you as of a woman in travail?"
+            },
+            {
+              "key": "Mic.4.10",
+              "verse": 10,
+              "text": "Be in pain, and labor to give birth, daughter of Zion, like a woman in travail; for now you will go out of the city, and will dwell in the field, and will come even to Babylon. There you will be rescued. There Yahweh will redeem you from the hand of your enemies."
+            }
+          ]
+        },
+        {
+          "reference": "1 Samuel 16:11–12",
+          "title": "An earlier shepherd from Bethlehem",
+          "lens": "Looking back to David’s beginnings",
+          "prompt": "Who is still out with the sheep when Samuel asks about Jesse’s sons? What might this earlier scene help us notice about God’s choice of an unexpected place and person?",
+          "url": "https://ebible.org/eng-web/1SA16.htm#V11",
+          "verses": [
+            {
+              "key": "1Sam.16.11",
+              "verse": 11,
+              "text": "Samuel said to Jesse, “Are all your children here?” He said, “There remains yet the youngest. Behold, he is keeping the sheep.” Samuel said to Jesse, “Send and get him, for we will not sit down until he comes here.”"
+            },
+            {
+              "key": "1Sam.16.12",
+              "verse": 12,
+              "text": "He sent, and brought him in. Now he was ruddy, with a handsome face and good appearance. Yahweh said, “Arise! Anoint him, for this is he.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "image": "session-04.webp",
+      "alt": "A servant with a scroll faces distant islands as travellers from different peoples gather at the shore.",
+      "narrativeQuestion": "How does the Servant’s mission answer Israel’s need while also reaching people beyond Israel?",
+      "connections": [
+        {
+          "reference": "Isaiah 49:14–16",
+          "title": "A people who feel forgotten",
+          "lens": "Later in the same chapter",
+          "prompt": "What does Zion fear, and how does God answer? How does this help us hear the promise of restoration as good news for people in real need?",
+          "url": "https://ebible.org/eng-web/ISA49.htm#V14",
+          "verses": [
+            {
+              "key": "Isa.49.14",
+              "verse": 14,
+              "text": "But Zion said, “Yahweh has forsaken me, and the Lord has forgotten me.”"
+            },
+            {
+              "key": "Isa.49.15",
+              "verse": 15,
+              "text": "“Can a woman forget her nursing child, that she should not have compassion on the son of her womb? Yes, these may forget, yet I will not forget you!"
+            },
+            {
+              "key": "Isa.49.16",
+              "verse": 16,
+              "text": "Behold, I have engraved you on the palms of my hands. Your walls are continually before me."
+            }
+          ]
+        },
+        {
+          "reference": "Genesis 12:2–3",
+          "title": "The nations were in view from the beginning",
+          "lens": "Looking back to the promise to Abraham",
+          "prompt": "Who is meant to receive blessing through Abraham? How does that earlier promise help us hear the wide mission in Isaiah 49:6?",
+          "url": "https://ebible.org/eng-web/GEN12.htm#V2",
+          "verses": [
+            {
+              "key": "Gen.12.2",
+              "verse": 2,
+              "text": "I will make of you a great nation. I will bless you and make your name great. You will be a blessing."
+            },
+            {
+              "key": "Gen.12.3",
+              "verse": 3,
+              "text": "I will bless those who bless you, and I will curse him who treats you with contempt. All the families of the earth will be blessed through you.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "image": "session-05.webp",
+      "alt": "Zechariah listens to a messenger beside the incense altar in a warmly lit temple interior.",
+      "narrativeQuestion": "What do these promises help us notice about John’s task, and why must a people be prepared to receive their King?",
+      "connections": [
+        {
+          "reference": "Malachi 3:1–3",
+          "title": "A messenger prepares the way",
+          "lens": "An earlier prophetic promise",
+          "prompt": "Who comes first, who comes after him, and why does the coming of the Lord involve cleansing as well as hope?",
+          "url": "https://ebible.org/eng-web/MAL03.htm#V1",
+          "verses": [
+            {
+              "key": "Mal.3.1",
+              "verse": 1,
+              "text": "“Behold, I send my messenger, and he will prepare the way before me! The Lord, whom you seek, will suddenly come to his temple. Behold, the messenger of the covenant, whom you desire, is coming!” says Yahweh of Armies."
+            },
+            {
+              "key": "Mal.3.2",
+              "verse": 2,
+              "text": "“But who can endure the day of his coming? And who will stand when he appears? For he is like a refiner’s fire, and like launderers’ soap;"
+            },
+            {
+              "key": "Mal.3.3",
+              "verse": 3,
+              "text": "and he will sit as a refiner and purifier of silver, and he will purify the sons of Levi, and refine them as gold and silver; and they shall offer to Yahweh offerings in righteousness."
+            }
+          ]
+        },
+        {
+          "reference": "Malachi 4:5–6",
+          "title": "Hearts that need to turn",
+          "lens": "An earlier prophetic promise",
+          "prompt": "What needs to change among the people? Compare this with the work Gabriel describes for John in Luke 1:16–17.",
+          "url": "https://ebible.org/eng-web/MAL04.htm#V5",
+          "verses": [
+            {
+              "key": "Mal.4.5",
+              "verse": 5,
+              "text": "Behold, I will send you Elijah the prophet before the great and terrible day of Yahweh comes."
+            },
+            {
+              "key": "Mal.4.6",
+              "verse": 6,
+              "text": "He will turn the hearts of the fathers to the children and the hearts of the children to their fathers, lest I come and strike the earth with a curse.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "image": "session-06.webp",
+      "alt": "Mary listens thoughtfully to Gabriel beside a loom and clay jars in a simple Nazareth home.",
+      "narrativeQuestion": "Which words in Gabriel’s announcement help us recognise the promised King, and what remains surprising about how He comes?",
+      "connections": [
+        {
+          "reference": "2 Samuel 7:12–16",
+          "title": "A house, a kingdom and a throne",
+          "lens": "Returning to our first study",
+          "prompt": "Which parts of the promise to David do you hear again in Gabriel’s words? Read the original promise carefully before drawing the connection.",
+          "url": "https://ebible.org/eng-web/2SA07.htm#V12",
+          "verses": [
+            {
+              "key": "2Sam.7.12",
+              "verse": 12,
+              "text": "When your days are fulfilled and you sleep with your fathers, I will set up your offspring after you, who will proceed out of your body, and I will establish his kingdom."
+            },
+            {
+              "key": "2Sam.7.13",
+              "verse": 13,
+              "text": "He will build a house for my name, and I will establish the throne of his kingdom forever."
+            },
+            {
+              "key": "2Sam.7.14",
+              "verse": 14,
+              "text": "I will be his father, and he will be my son. If he commits iniquity, I will chasten him with the rod of men and with the stripes of the children of men;"
+            },
+            {
+              "key": "2Sam.7.15",
+              "verse": 15,
+              "text": "but my loving kindness will not depart from him, as I took it from Saul, whom I put away before you."
+            },
+            {
+              "key": "2Sam.7.16",
+              "verse": 16,
+              "text": "Your house and your kingdom will be made sure forever before you. Your throne will be established forever.” ’ ”"
+            }
+          ]
+        },
+        {
+          "reference": "Isaiah 7:14",
+          "title": "A sign and the promise of God with us",
+          "lens": "An earlier sign spoken in a time of fear",
+          "prompt": "What does this sign say about a child and about God’s presence? Compare it with Luke’s account without assuming that every detail of the two settings is the same.",
+          "url": "https://ebible.org/eng-web/ISA07.htm#V14",
+          "verses": [
+            {
+              "key": "Isa.7.14",
+              "verse": 14,
+              "text": "Therefore the Lord himself will give you a sign. Behold, the virgin will conceive, and bear a son, and shall call his name Immanuel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "image": "session-07.webp",
+      "alt": "Mary and Elizabeth greet one another with joy in the doorway of a Judean hill-country home.",
+      "narrativeQuestion": "How does Mary’s song help us recognise God’s saving work, and whose ideas of power and importance does it challenge?",
+      "connections": [
+        {
+          "reference": "1 Samuel 2:1–8",
+          "title": "Hannah’s song of reversal",
+          "lens": "An earlier song in Israel’s story",
+          "prompt": "What does Hannah say about strength, hunger, poverty and honour? Which concerns return in Mary’s song?",
+          "url": "https://ebible.org/eng-web/1SA02.htm#V1",
+          "verses": [
+            {
+              "key": "1Sam.2.1",
+              "verse": 1,
+              "text": "Hannah prayed, and said, “My heart exults in Yahweh! My horn is exalted in Yahweh. My mouth is enlarged over my enemies, because I rejoice in your salvation."
+            },
+            {
+              "key": "1Sam.2.2",
+              "verse": 2,
+              "text": "There is no one as holy as Yahweh, for there is no one besides you, nor is there any rock like our God."
+            },
+            {
+              "key": "1Sam.2.3",
+              "verse": 3,
+              "text": "“Don’t keep talking so exceedingly proudly. Don’t let arrogance come out of your mouth, for Yahweh is a God of knowledge. By him actions are weighed."
+            },
+            {
+              "key": "1Sam.2.4",
+              "verse": 4,
+              "text": "“The bows of the mighty men are broken. Those who stumbled are armed with strength."
+            },
+            {
+              "key": "1Sam.2.5",
+              "verse": 5,
+              "text": "Those who were full have hired themselves out for bread. Those who were hungry are satisfied. Yes, the barren has borne seven. She who has many children languishes."
+            },
+            {
+              "key": "1Sam.2.6",
+              "verse": 6,
+              "text": "“Yahweh kills and makes alive. He brings down to Sheol and brings up."
+            },
+            {
+              "key": "1Sam.2.7",
+              "verse": 7,
+              "text": "Yahweh makes poor and makes rich. He brings low, he also lifts up."
+            },
+            {
+              "key": "1Sam.2.8",
+              "verse": 8,
+              "text": "He raises up the poor out of the dust. He lifts up the needy from the dunghill to make them sit with princes and inherit the throne of glory. For the pillars of the earth are Yahweh’s. He has set the world on them."
+            }
+          ]
+        },
+        {
+          "reference": "Genesis 17:7",
+          "title": "Mercy within a lasting covenant",
+          "lens": "Looking back to Abraham",
+          "prompt": "What relationship does God promise to establish? How does Mary’s reference to Abraham place this moment within a much longer story?",
+          "url": "https://ebible.org/eng-web/GEN17.htm#V7",
+          "verses": [
+            {
+              "key": "Gen.17.7",
+              "verse": 7,
+              "text": "I will establish my covenant between me and you and your offspring after you throughout their generations for an everlasting covenant, to be a God to you and to your offspring after you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "image": "session-08.webp",
+      "alt": "Mary and Joseph attend the newborn Jesus in a humble dwelling while census registration continues outside.",
+      "narrativeQuestion": "How do the place and circumstances of Jesus’ birth help us reconsider what the arrival of God’s King might look like?",
+      "connections": [
+        {
+          "reference": "Micah 5:2–4",
+          "title": "The small place and the shepherd ruler",
+          "lens": "Returning to the promise of Bethlehem",
+          "prompt": "What does Micah say about Bethlehem and the ruler’s care? What can we recognise in Luke’s scene, and what are we still waiting to see?",
+          "url": "https://ebible.org/eng-web/MIC05.htm#V2",
+          "verses": [
+            {
+              "key": "Mic.5.2",
+              "verse": 2,
+              "text": "But you, Bethlehem Ephrathah, being small among the clans of Judah, out of you one will come out to me who is to be ruler in Israel; whose goings out are from of old, from ancient times."
+            },
+            {
+              "key": "Mic.5.3",
+              "verse": 3,
+              "text": "Therefore he will abandon them until the time that she who is in labor gives birth. Then the rest of his brothers will return to the children of Israel."
+            },
+            {
+              "key": "Mic.5.4",
+              "verse": 4,
+              "text": "He shall stand, and shall shepherd in the strength of Yahweh, in the majesty of the name of Yahweh his God. They will live, for then he will be great to the ends of the earth."
+            }
+          ]
+        },
+        {
+          "reference": "Luke 1:51–53",
+          "title": "The powerful and the lowly",
+          "lens": "Remembering Mary’s song",
+          "prompt": "How might Mary’s song prepare us to notice the contrast between Caesar’s decree and the child lying in a feeding trough?",
+          "url": "https://ebible.org/eng-web/LUK01.htm#V51",
+          "verses": [
+            {
+              "key": "Luke.1.51",
+              "verse": 51,
+              "text": "He has shown strength with his arm. He has scattered the proud in the imagination of their hearts."
+            },
+            {
+              "key": "Luke.1.52",
+              "verse": 52,
+              "text": "He has put down princes from their thrones, and has exalted the lowly."
+            },
+            {
+              "key": "Luke.1.53",
+              "verse": 53,
+              "text": "He has filled the hungry with good things. He has sent the rich away empty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "image": "session-09.webp",
+      "alt": "Shepherds watch their sheep under a bright heavenly announcement in the fields outside Bethlehem.",
+      "narrativeQuestion": "How do heaven’s words answer the hopes we have followed, and why is the identity of this child good news for people in need?",
+      "connections": [
+        {
+          "reference": "Isaiah 9:6–7",
+          "title": "A child whose rule brings peace",
+          "lens": "Returning to the promised ruler",
+          "prompt": "What kind of authority and peace does Isaiah describe? Which parts of that hope help us listen to the angels’ announcement?",
+          "url": "https://ebible.org/eng-web/ISA09.htm#V6",
+          "verses": [
+            {
+              "key": "Isa.9.6",
+              "verse": 6,
+              "text": "For a child is born to us. A son is given to us; and the government will be on his shoulders. His name will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace."
+            },
+            {
+              "key": "Isa.9.7",
+              "verse": 7,
+              "text": "Of the increase of his government and of peace there shall be no end, on David’s throne, and on his kingdom, to establish it, and to uphold it with justice and with righteousness from that time on, even forever. The zeal of Yahweh of Armies will perform this."
+            }
+          ]
+        },
+        {
+          "reference": "Isaiah 40:1–2",
+          "title": "Comfort for a wounded people",
+          "lens": "An earlier promise of comfort",
+          "prompt": "What sorrow and guilt stand behind the call to comfort God’s people? How does that help us understand why news of a Savior matters?",
+          "url": "https://ebible.org/eng-web/ISA40.htm#V1",
+          "verses": [
+            {
+              "key": "Isa.40.1",
+              "verse": 1,
+              "text": "“Comfort, comfort my people,” says your God."
+            },
+            {
+              "key": "Isa.40.2",
+              "verse": 2,
+              "text": "“Speak comfortably to Jerusalem, and call out to her that her warfare is accomplished, that her iniquity is pardoned, that she has received of Yahweh’s hand double for all her sins.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "image": "session-10.webp",
+      "alt": "Simeon holds the infant Jesus while Anna, Mary and Joseph gather in the temple courtyard.",
+      "narrativeQuestion": "How do Simeon and Anna bring Israel’s need for comfort and the hope of the nations together in this child?",
+      "connections": [
+        {
+          "reference": "Isaiah 49:6",
+          "title": "Light reaching beyond Israel",
+          "lens": "Returning to the Servant’s mission",
+          "prompt": "How does Simeon’s description of Jesus echo this mission? Notice both the restoration of Israel and the reach of salvation.",
+          "url": "https://ebible.org/eng-web/ISA49.htm#V6",
+          "verses": [
+            {
+              "key": "Isa.49.6",
+              "verse": 6,
+              "text": "Indeed, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel. I will also give you as a light to the nations, that you may be my salvation to the end of the earth.”"
+            }
+          ]
+        },
+        {
+          "reference": "Luke 1:76–79",
+          "title": "Forgiveness, light and the way of peace",
+          "lens": "Remembering Zechariah’s song",
+          "prompt": "What kind of need does this song name? How do forgiveness, light and peace help us understand what Simeon and Anna have been waiting for?",
+          "url": "https://ebible.org/eng-web/LUK01.htm#V76",
+          "verses": [
+            {
+              "key": "Luke.1.76",
+              "verse": 76,
+              "text": "And you, child, will be called a prophet of the Most High; for you will go before the face of the Lord to prepare his ways,"
+            },
+            {
+              "key": "Luke.1.77",
+              "verse": 77,
+              "text": "to give knowledge of salvation to his people by the remission of their sins,"
+            },
+            {
+              "key": "Luke.1.78",
+              "verse": 78,
+              "text": "because of the tender mercy of our God, by which the dawn from on high will visit us,"
+            },
+            {
+              "key": "Luke.1.79",
+              "verse": 79,
+              "text": "to shine on those who sit in darkness and the shadow of death; to guide our feet into the way of peace.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "image": "session-11.webp",
+      "alt": "The young Jesus listens and asks questions among teachers in the temple while Mary and Joseph approach.",
+      "narrativeQuestion": "What have these childhood scenes shown about Jesus’ real human growth and His unique relationship with the Father?",
+      "connections": [
+        {
+          "reference": "1 Samuel 2:26",
+          "title": "A child who grows before God",
+          "lens": "An earlier childhood scene",
+          "prompt": "What words describe Samuel’s growth? Compare them with Luke 2:52, while noticing what Luke says about Jesus that goes beyond this earlier scene.",
+          "url": "https://ebible.org/eng-web/1SA02.htm#V26",
+          "verses": [
+            {
+              "key": "1Sam.2.26",
+              "verse": 26,
+              "text": "The child Samuel grew on, and increased in favor both with Yahweh and also with men."
+            }
+          ]
+        },
+        {
+          "reference": "Luke 1:32–35",
+          "title": "The identity announced before His birth",
+          "lens": "Remembering Gabriel’s words",
+          "prompt": "Which titles were given to Jesus before His birth? How does His reference to His Father in Luke 2:49 help the story develop those words?",
+          "url": "https://ebible.org/eng-web/LUK01.htm#V32",
+          "verses": [
+            {
+              "key": "Luke.1.32",
+              "verse": 32,
+              "text": "He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David,"
+            },
+            {
+              "key": "Luke.1.33",
+              "verse": 33,
+              "text": "and he will reign over the house of Jacob forever. There will be no end to his Kingdom.”"
+            },
+            {
+              "key": "Luke.1.34",
+              "verse": 34,
+              "text": "Mary said to the angel, “How can this be, seeing I am a virgin?”"
+            },
+            {
+              "key": "Luke.1.35",
+              "verse": 35,
+              "text": "The angel answered her, “The Holy Spirit will come on you, and the power of the Most High will overshadow you. Therefore also the holy one who is born from you will be called the Son of God."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "image": "session-12.webp",
+      "alt": "Jesus prays in the Jordan beside John as a dove descends and the gathered people watch from the bank.",
+      "narrativeQuestion": "How do John’s call, the Spirit’s descent and the Father’s words prepare us to move from recognising the King to following His mission?",
+      "connections": [
+        {
+          "reference": "Isaiah 40:3–5",
+          "title": "A way prepared for the Lord",
+          "lens": "The prophecy Luke quotes",
+          "prompt": "What is being prepared, and who is to see God’s glory? How does this widen our view of John’s call to repentance?",
+          "url": "https://ebible.org/eng-web/ISA40.htm#V3",
+          "verses": [
+            {
+              "key": "Isa.40.3",
+              "verse": 3,
+              "text": "The voice of one who calls out, “Prepare the way of Yahweh in the wilderness! Make a level highway in the desert for our God."
+            },
+            {
+              "key": "Isa.40.4",
+              "verse": 4,
+              "text": "Every valley shall be exalted, and every mountain and hill shall be made low. The uneven shall be made level, and the rough places a plain."
+            },
+            {
+              "key": "Isa.40.5",
+              "verse": 5,
+              "text": "Yahweh’s glory shall be revealed, and all flesh shall see it together; for the mouth of Yahweh has spoken it.”"
+            }
+          ]
+        },
+        {
+          "reference": "Isaiah 42:1–4",
+          "title": "The Spirit and the Servant’s mission",
+          "lens": "An earlier portrait of God’s Servant",
+          "prompt": "What does the Spirit-equipped Servant bring, and how does He treat the weak? What expectations does this raise for the ministry Jesus is about to begin?",
+          "url": "https://ebible.org/eng-web/ISA42.htm#V1",
+          "verses": [
+            {
+              "key": "Isa.42.1",
+              "verse": 1,
+              "text": "“Behold, my servant, whom I uphold, my chosen, in whom my soul delights: I have put my Spirit on him. He will bring justice to the nations."
+            },
+            {
+              "key": "Isa.42.2",
+              "verse": 2,
+              "text": "He will not shout, nor raise his voice, nor cause it to be heard in the street."
+            },
+            {
+              "key": "Isa.42.3",
+              "verse": 3,
+              "text": "He won’t break a bruised reed. He won’t quench a dimly burning wick. He will faithfully bring justice."
+            },
+            {
+              "key": "Isa.42.4",
+              "verse": 4,
+              "text": "He will not fail nor be discouraged, until he has set justice on the earth, and the islands wait for his law.”"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
