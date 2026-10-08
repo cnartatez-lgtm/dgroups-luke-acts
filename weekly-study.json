@@ -3,18 +3,15 @@
   "method": [
     {
       "title": "Observation",
-      "question": "Who is involved, and what happens?",
-      "hint": "Notice repeated words, contrasts and how the sentences connect."
+      "question": "Who is involved, and what happens?"
     },
     {
       "title": "Interpretation",
-      "question": "What is the main point for the first hearers?",
-      "hint": "Use the chapter and related Scriptures to understand its place in the story of Jesus."
+      "question": "What is the main point for the first hearers?"
     },
     {
       "title": "Application",
-      "question": "What does this show us about God, and how will we respond?",
-      "hint": "Name one promise to trust, command to obey or change to make. Pray for one another."
+      "question": "What does this show us about God, and how will we respond?"
     }
   ],
   "sessions": [

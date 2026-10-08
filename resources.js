@@ -12,9 +12,9 @@ export const resources=[
  ['Bible Odyssey','https://www.bibleodyssey.org/','Places and words','Look up unfamiliar terms and read articles about the people, practices and world of the Bible.']
 ];
 export const methodGuide=[
- ['Observe what is there','Read the whole passage slowly before using a commentary. Ask who is speaking, who is listening, where the scene takes place and what happens. Notice repeated words, contrasts, actions and connecting words such as “because” or “therefore”.'],
- ['Interpret in context','Read the surrounding chapter and consider the purpose of the book. Ask what the first readers would have understood, explore related Scriptures, and consider how the passage belongs within the Bible’s story of salvation through Jesus Christ.'],
- ['Apply what you understand','Ask what the passage reveals about God and what it calls you to believe, obey or change. Move towards a response that grows out of the passage, rather than using the passage to support a decision you have already made.'],
+ ['Observation','Who is involved, and what happens?'],
+ ['Interpretation','What is the main point for the first hearers?'],
+ ['Application','What does this show us about God, and how will we respond?'],
  ['Encourage and care for one another','Talk about how you will practise what you have learned and whom you could share it with. Ask a trusted person to pray with you where you need help, and consider how you are caring for the people, time and resources God has entrusted to you.'],
  ['Pray together','Thank God for who he is and for his gifts, confess your sins, and pray for your group as you study and live out his Word. Bring the needs of others to him, including people with whom you hope to share the good news.']
 ];
