@@ -1,0 +1,502 @@
+{
+  "version": 1,
+  "method": [
+    {
+      "title": "Observation",
+      "question": "Who is involved, and what happens?",
+      "hint": "Notice repeated words, contrasts and how the sentences connect."
+    },
+    {
+      "title": "Interpretation",
+      "question": "What is the main point for the first hearers?",
+      "hint": "Use the chapter and related Scriptures to understand its place in the story of Jesus."
+    },
+    {
+      "title": "Application",
+      "question": "What does this show us about God, and how will we respond?",
+      "hint": "Name one promise to trust, command to obey or change to make. Pray for one another."
+    }
+  ],
+  "sessions": [
+    {
+      "number": 1,
+      "bridgeQuestion": "What will Israel learn when one ordinary king after another fails to live up to the hope of a lasting King?",
+      "hints": [
+        "Before David, Israel asks for a king like other nations. Notice the hopes behind that request.",
+        "Later, the kingdom faces division. Look for what God still preserves of his promise to David."
+      ],
+      "concordance": [
+        {
+          "source": "2Sam.7.8",
+          "ref": "1Sam.16.11-1Sam.16.12",
+          "reason": "David is called away from the sheep here. This gives a setting for God’s reminder about where his kingship began."
+        },
+        {
+          "source": "2Sam.7.10",
+          "ref": "Amos.9.15",
+          "reason": "Both passages use the picture of planting God’s people securely. Compare the promised place and the threat of being uprooted."
+        },
+        {
+          "source": "2Sam.7.12",
+          "ref": "Acts.2.30",
+          "reason": "Peter recalls God’s oath about a descendant on David’s throne. Notice how he uses that promise when speaking about Jesus."
+        },
+        {
+          "source": "2Sam.7.13",
+          "ref": "Luke.1.31-Luke.1.33",
+          "reason": "Gabriel’s words return to David’s throne and a kingdom without an end. Listen for the language of this promise."
+        },
+        {
+          "source": "2Sam.7.14",
+          "ref": "Heb.1.5",
+          "reason": "Hebrews quotes the father-and-son promise when speaking about the Son. Compare its use here with the royal promise to David."
+        },
+        {
+          "source": "2Sam.7.16",
+          "ref": "Isa.9.7",
+          "reason": "David’s throne and an unending kingdom appear again, with justice and righteousness describing the coming ruler’s government."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "bridgeQuestion": "Where will such a surprising King come from?",
+      "hints": [
+        "People search for guidance while distress grows. This gives a setting for the light promised in the next chapter.",
+        "Later in the chapter, both leaders and people turn away from God. Notice how deep the need for a different ruler goes."
+      ],
+      "concordance": [
+        {
+          "source": "Isa.9.1",
+          "ref": "2Kgs.15.29",
+          "reason": "This account names the northern places taken by Assyria. It helps give historical weight to Isaiah’s words about gloom in Galilee."
+        },
+        {
+          "source": "Isa.9.2",
+          "ref": "Luke.1.78-Luke.1.79",
+          "reason": "Zechariah also speaks of light for people in darkness and the shadow of death. Notice where that light is meant to lead them."
+        },
+        {
+          "source": "Isa.9.4",
+          "ref": "Isa.10.26-Isa.10.27",
+          "reason": "The yoke, the burden and Midian return here. These shared images help us recognise the kind of oppression Isaiah has in view."
+        },
+        {
+          "source": "Isa.9.5",
+          "ref": "Ps.46.9",
+          "reason": "Weapons are destroyed as war comes to an end. Compare that picture with Isaiah’s burning armour and bloodstained garments."
+        },
+        {
+          "source": "Isa.9.6",
+          "ref": "Jer.23.5-Jer.23.6",
+          "reason": "Jeremiah also describes a Davidic ruler who brings justice and safety. Compare the ruler’s character with the titles of Isaiah’s child."
+        },
+        {
+          "source": "Isa.9.7",
+          "ref": "Luke.1.32-Luke.1.33",
+          "reason": "Gabriel speaks of David’s throne and a kingdom that will not end. These phrases connect his announcement with Isaiah’s hope."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "bridgeQuestion": "Is God’s heart only for restoring Israel?",
+      "hints": [
+        "Fear and exile stand behind the promise of rescue. Read this to feel the need for a shepherd.",
+        "David begins among the sheep, away from the centre of attention. Notice another unexpected beginning."
+      ],
+      "concordance": [
+        {
+          "source": "Mic.5.1",
+          "ref": "Lam.3.30",
+          "reason": "The image of a cheek struck in humiliation appears in both texts. Compare the suffering each passage describes before following Micah’s promise."
+        },
+        {
+          "source": "Mic.5.2",
+          "ref": "Matt.2.6",
+          "reason": "Matthew cites the Bethlehem prophecy in the search for the child. Notice how the ruler is described as a shepherd."
+        },
+        {
+          "source": "Mic.5.2",
+          "ref": "John.7.42",
+          "reason": "People recall both David’s family and Bethlehem when discussing the Christ. This shows the expectation attached to Micah’s promise."
+        },
+        {
+          "source": "Mic.5.3",
+          "ref": "Isa.10.20-Isa.10.21",
+          "reason": "Isaiah speaks of a remnant returning to God. Compare that hope with the brothers who return to Israel in Micah."
+        },
+        {
+          "source": "Mic.5.4",
+          "ref": "Isa.40.10-Isa.40.11",
+          "reason": "Strength and shepherding belong together in both passages. Notice how the powerful shepherd cares for the vulnerable."
+        },
+        {
+          "source": "Mic.5.5",
+          "ref": "Eph.2.14-Eph.2.17",
+          "reason": "The words about peace invite comparison: Micah says the ruler will be their peace, while Ephesians describes the peace Christ brings."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "bridgeQuestion": "What sign will tell us that what God promised so long ago has finally begun?",
+      "hints": [
+        "Zion feels forgotten. God’s answer helps us hear restoration as hope for people in real distress.",
+        "The promise to Abraham already includes other nations. Notice how far the blessing is meant to reach."
+      ],
+      "concordance": [
+        {
+          "source": "Isa.49.1",
+          "ref": "Jer.1.5",
+          "reason": "Jeremiah’s calling also begins before birth and reaches the nations. Compare the language of calling without assuming both servants have the same task."
+        },
+        {
+          "source": "Isa.49.2",
+          "ref": "Isa.50.4",
+          "reason": "Both passages connect the servant’s work with his speech. Notice the difference between the sharp-sword image and a word that sustains the weary."
+        },
+        {
+          "source": "Isa.49.3",
+          "ref": "Isa.42.1",
+          "reason": "Another servant passage speaks of God’s delight and a mission among the nations. Read the two portraits alongside one another."
+        },
+        {
+          "source": "Isa.49.4",
+          "ref": "Gal.4.11",
+          "reason": "Paul also fears that his labour may have been in vain. The shared concern helps us hear the servant’s discouragement, in a different setting."
+        },
+        {
+          "source": "Isa.49.5",
+          "ref": "Rom.15.8",
+          "reason": "Paul links Christ’s service to the confirmation of promises made to Israel’s fathers. Compare this with the servant’s task of gathering Israel."
+        },
+        {
+          "source": "Isa.49.6",
+          "ref": "Acts.13.47",
+          "reason": "Paul and Barnabas quote the promise of light to the nations. This is a direct link from the servant’s mission to the story in Acts."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "bridgeQuestion": "If John’s role is to prepare the way, who is so important that he needs such preparation?",
+      "hints": [
+        "A messenger comes before the Lord, and his coming brings cleansing. This gives a setting for John’s task.",
+        "The promise speaks of hearts turning. Notice what kind of preparation the people need."
+      ],
+      "concordance": [
+        {
+          "source": "Luke.1.5",
+          "ref": "1Chr.24.10",
+          "reason": "Abijah appears among the priestly divisions. This small detail helps place Zechariah’s service within Israel’s ordered temple worship."
+        },
+        {
+          "source": "Luke.1.7",
+          "ref": "Gen.18.11",
+          "reason": "Abraham and Sarah also face old age without the promised child. Notice the shared human limitation behind these unexpected births."
+        },
+        {
+          "source": "Luke.1.9",
+          "ref": "Exod.30.7-Exod.30.8",
+          "reason": "The instructions for burning incense explain the temple duty Zechariah is carrying out when the messenger appears."
+        },
+        {
+          "source": "Luke.1.16",
+          "ref": "Mal.3.1",
+          "reason": "Malachi promises a messenger who prepares the way. This gives a background for John’s work of turning people towards the Lord."
+        },
+        {
+          "source": "Luke.1.17",
+          "ref": "Mal.4.5-Mal.4.6",
+          "reason": "Gabriel echoes the promise of Elijah and the turning of hearts. Compare the wording to see how John’s task is introduced."
+        },
+        {
+          "source": "Luke.1.25",
+          "ref": "Gen.30.22-Gen.30.23",
+          "reason": "Rachel also speaks of God taking away her reproach after giving her a child. The shared language helps us hear Elizabeth’s personal relief."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "bridgeQuestion": "What kind of salvation will this King actually bring when he comes?",
+      "hints": [
+        "Return to the promise of a house, a kingdom and a throne. Listen for its language in Gabriel’s announcement.",
+        "A child is given as a sign in a time of fear. Compare this promise of God’s presence with Mary’s scene."
+      ],
+      "concordance": [
+        {
+          "source": "Luke.1.27",
+          "ref": "Isa.7.14",
+          "reason": "The promised child and the virgin invite comparison. Read Isaiah’s sign in its own setting as you consider Luke’s account of Mary."
+        },
+        {
+          "source": "Luke.1.31",
+          "ref": "Matt.1.21",
+          "reason": "Matthew explains the name Jesus by speaking of salvation from sins. This adds a clue to the mission of the child Gabriel names."
+        },
+        {
+          "source": "Luke.1.32",
+          "ref": "2Sam.7.11-2Sam.7.13",
+          "reason": "The promise of David’s house and throne stands behind Gabriel’s announcement. Notice what is repeated and what is now made clearer."
+        },
+        {
+          "source": "Luke.1.33",
+          "ref": "Dan.7.13-Dan.7.14",
+          "reason": "Daniel also describes a kingdom that will not pass away. Compare its reach among the nations with the reign Gabriel announces."
+        },
+        {
+          "source": "Luke.1.35",
+          "ref": "Matt.1.18",
+          "reason": "Matthew also identifies the Holy Spirit’s work in Mary’s pregnancy. The two accounts help us compare what is said about Jesus’ birth."
+        },
+        {
+          "source": "Luke.1.37",
+          "ref": "Gen.18.14",
+          "reason": "The question about anything being too hard for God accompanies the promise to Sarah. It gives an earlier setting for Gabriel’s assurance."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "bridgeQuestion": "What will it look like when God’s King actually steps into our world?",
+      "hints": [
+        "Hannah’s song celebrates God lifting the weak. Listen for images that return in Mary’s praise.",
+        "God promises a lasting relationship with Abraham’s descendants. This gives a setting for the close of Mary’s song."
+      ],
+      "concordance": [
+        {
+          "source": "Luke.1.41",
+          "ref": "Luke.1.15",
+          "reason": "The earlier promise about John and the Holy Spirit prepares us for Elizabeth’s Spirit-filled response when Mary arrives."
+        },
+        {
+          "source": "Luke.1.45",
+          "ref": "John.20.29",
+          "reason": "Believing and blessing are linked in both passages. Compare Mary’s trust in God’s word with the blessing Jesus describes."
+        },
+        {
+          "source": "Luke.1.46",
+          "ref": "1Sam.2.1-1Sam.2.10",
+          "reason": "Hannah’s song also celebrates God lifting the weak and bringing down the proud. Listen for the shared movement in these two songs."
+        },
+        {
+          "source": "Luke.1.50",
+          "ref": "Ps.103.17-Ps.103.18",
+          "reason": "The psalm connects enduring mercy with those who fear God. These shared words place Mary’s praise within Israel’s worship."
+        },
+        {
+          "source": "Luke.1.52",
+          "ref": "1Sam.2.6-1Sam.2.8",
+          "reason": "Hannah sings of God raising the poor and bringing people low. Compare that reversal with Mary’s words about rulers and the humble."
+        },
+        {
+          "source": "Luke.1.55",
+          "ref": "Gen.17.19",
+          "reason": "God’s promise to Abraham names Isaac and an enduring covenant. This gives a setting for Mary’s remembrance of mercy through generations."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "bridgeQuestion": "If heaven sees this birth very differently from the world, who will be the first to hear heaven’s explanation of what has just happened?",
+      "hints": [
+        "Bethlehem is small, yet a shepherd ruler will come from it. Keep that contrast in mind as you read Luke.",
+        "Mary has sung about the powerful and the lowly. Her words may sharpen what we notice in the birth scene."
+      ],
+      "concordance": [
+        {
+          "source": "Luke.2.1",
+          "ref": "Acts.11.28",
+          "reason": "Luke uses the language of the inhabited world under another emperor. This helps us notice the wider Roman setting of the census."
+        },
+        {
+          "source": "Luke.2.4",
+          "ref": "Mic.5.2",
+          "reason": "Micah names Bethlehem as the place from which a ruler will come. Compare that promise with the town reached by Joseph and Mary."
+        },
+        {
+          "source": "Luke.2.4",
+          "ref": "1Sam.16.1",
+          "reason": "Samuel is sent to Jesse in Bethlehem. This earlier scene explains the town’s connection with David’s family."
+        },
+        {
+          "source": "Luke.2.5",
+          "ref": "Matt.1.18-Matt.1.19",
+          "reason": "Matthew also describes Mary and Joseph’s betrothal during her pregnancy. It adds a personal setting to Luke’s brief account of their journey."
+        },
+        {
+          "source": "Luke.2.7",
+          "ref": "2Cor.8.9",
+          "reason": "Paul speaks of Christ becoming poor for others. Compare that pattern of humility with the modest circumstances of the child’s birth."
+        },
+        {
+          "source": "Luke.2.7",
+          "ref": "John.1.14",
+          "reason": "John describes the Word becoming flesh and dwelling among us. Read this alongside Luke’s concrete details of a newborn child."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "bridgeQuestion": "Will the people who have waited for God to comfort Israel recognise his salvation when they see it?",
+      "hints": [
+        "A child is promised whose rule brings peace. Listen for that hope in the angels’ announcement.",
+        "The call to comfort follows sorrow and guilt. This helps us hear why news of a Saviour matters."
+      ],
+      "concordance": [
+        {
+          "source": "Luke.2.8",
+          "ref": "Ps.78.70-Ps.78.71",
+          "reason": "David was called from caring for sheep. The shared shepherd setting is worth noticing in a birth announced near David’s town."
+        },
+        {
+          "source": "Luke.2.10",
+          "ref": "Isa.52.7",
+          "reason": "Isaiah joins good news, peace, salvation and God’s reign. These words help us listen carefully to what the angel announces."
+        },
+        {
+          "source": "Luke.2.11",
+          "ref": "Isa.9.6",
+          "reason": "Isaiah’s promised child is given royal titles. Compare those names with the angel’s words about the child born in David’s city."
+        },
+        {
+          "source": "Luke.2.14",
+          "ref": "Rom.5.1",
+          "reason": "Romans speaks of peace with God through Jesus Christ. This offers another setting in which to explore the peace praised by the angels."
+        },
+        {
+          "source": "Luke.2.17",
+          "ref": "Luke.8.39",
+          "reason": "Jesus later sends a healed man to tell what God has done. Compare this response with the shepherds sharing what they have heard and seen."
+        },
+        {
+          "source": "Luke.2.19",
+          "ref": "Luke.2.51",
+          "reason": "Mary again keeps events in her heart later in the chapter. This repeated response helps us follow her place in Luke’s story."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "bridgeQuestion": "Who does Jesus understand himself to be?",
+      "hints": [
+        "The servant’s mission reaches beyond Israel. Compare that reach with Simeon’s words about the child.",
+        "Zechariah names forgiveness, light and peace. These give shape to the salvation Simeon and Anna await."
+      ],
+      "concordance": [
+        {
+          "source": "Luke.2.21",
+          "ref": "Gen.17.12",
+          "reason": "The command to circumcise a boy on the eighth day explains the timing of this scene within Israel’s covenant life."
+        },
+        {
+          "source": "Luke.2.24",
+          "ref": "Lev.12.6-Lev.12.8",
+          "reason": "The law allows two birds when a family cannot afford a lamb. This detail helps us understand the offering brought by Jesus’ parents."
+        },
+        {
+          "source": "Luke.2.25",
+          "ref": "Isa.25.9",
+          "reason": "Isaiah gives words to people who have waited for God’s salvation. Compare their joy with Simeon’s long expectation."
+        },
+        {
+          "source": "Luke.2.32",
+          "ref": "Isa.49.6",
+          "reason": "The servant’s mission includes light for the nations. Simeon’s words echo that hope as he holds the child."
+        },
+        {
+          "source": "Luke.2.34",
+          "ref": "Isa.8.14-Isa.8.15",
+          "reason": "Isaiah describes a stone over which people stumble. Compare that warning with Simeon’s words about falling and rising."
+        },
+        {
+          "source": "Luke.2.38",
+          "ref": "Luke.1.68",
+          "reason": "Zechariah’s song also celebrates redemption for God’s people. Anna’s words connect the temple scene with that earlier hope."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "bridgeQuestion": "What happens when this hidden Son steps into public view and begins his mission?",
+      "hints": [
+        "Samuel also grows in favour with God and people. Compare the familiar childhood language with Jesus’ unique words about his Father.",
+        "Recall the identity announced before Jesus’ birth. His words in the temple add a new scene to that story."
+      ],
+      "concordance": [
+        {
+          "source": "Luke.2.40",
+          "ref": "1Sam.2.26",
+          "reason": "Samuel also grows in favour with God and people. Compare the childhood language while attending to what is distinctive about Jesus."
+        },
+        {
+          "source": "Luke.2.41",
+          "ref": "Exod.12.14",
+          "reason": "The command to remember Passover explains the feast that brings Jesus’ family to Jerusalem year after year."
+        },
+        {
+          "source": "Luke.2.46",
+          "ref": "Isa.50.4",
+          "reason": "Isaiah describes listening like a learner. Compare this picture with Jesus listening and asking questions among the teachers."
+        },
+        {
+          "source": "Luke.2.47",
+          "ref": "John.7.15",
+          "reason": "People later wonder at Jesus’ learning. This offers another scene of surprise at his understanding."
+        },
+        {
+          "source": "Luke.2.49",
+          "ref": "John.4.34",
+          "reason": "Jesus later speaks of doing the will of the One who sent him. Compare that priority with his words about his Father here."
+        },
+        {
+          "source": "Luke.2.51",
+          "ref": "Luke.2.19",
+          "reason": "Mary’s habit of keeping events in her heart returns from the birth scene. Notice how Luke carries her reflection through the chapter."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "bridgeQuestion": "What will his rule look like when he begins to confront the world as it really is?",
+      "hints": [
+        "Read the prophecy Luke quotes. Notice the road being prepared and the breadth of the promised salvation.",
+        "The Spirit rests on a servant who brings justice gently. Keep this portrait in mind as Jesus’ public work begins."
+      ],
+      "concordance": [
+        {
+          "source": "Luke.3.3",
+          "ref": "Acts.19.4",
+          "reason": "Paul explains John’s baptism as a call to repentance that points towards Jesus. This helps place John within the larger Luke–Acts story."
+        },
+        {
+          "source": "Luke.3.4",
+          "ref": "Isa.40.3-Isa.40.5",
+          "reason": "Luke quotes this prophecy directly. Reading its setting helps us hear why preparing the Lord’s way carries a promise of salvation."
+        },
+        {
+          "source": "Luke.3.8",
+          "ref": "Acts.26.20",
+          "reason": "Paul also connects repentance with deeds that fit it. Compare that call with the practical responses John asks for."
+        },
+        {
+          "source": "Luke.3.11",
+          "ref": "Isa.58.7-Isa.58.11",
+          "reason": "Sharing food and clothing is also part of Isaiah’s call to faithful living. These actions make John’s call to repentance concrete."
+        },
+        {
+          "source": "Luke.3.16",
+          "ref": "Acts.1.5",
+          "reason": "Jesus returns to the contrast between John’s water baptism and baptism with the Holy Spirit. This connection reaches into the opening of Acts."
+        },
+        {
+          "source": "Luke.3.22",
+          "ref": "Isa.42.1",
+          "reason": "God’s delight in his servant and the gift of the Spirit appear together here. Compare that portrait with the voice and the Spirit at Jesus’ baptism."
+        }
+      ]
+    }
+  ]
+}

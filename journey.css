@@ -1,4 +1,15 @@
 /* The twelve scenes and the story they tell. */
+.support-card-grid,.concordance-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}
+.support-card,.concordance-card{padding:22px;border:1px solid var(--line);border-radius:8px;background:var(--paper);min-width:0}
+.support-card .text-link,.concordance-card .text-link{font-size:17px;text-align:left;line-height:1.6;min-height:44px}
+.support-card p,.concordance-card p{font:15px/1.85 var(--sans);color:var(--muted);margin:12px 0 0}
+.scene-connections{border:0!important;padding:8px 0!important;background:transparent!important}
+.connection-origin{display:block;font-size:11px;letter-spacing:.4px;color:var(--muted);margin-bottom:12px}
+.weekly-concordance{margin:34px 0 45px}.weekly-concordance h4{font:30px/1.35 var(--serif);margin:12px 0}
+.connection-hint{padding:19px 23px;border-left:3px solid var(--accent);background:var(--accent-soft);font-size:15px;line-height:1.85;margin:24px 0}
+.study-question p.method-hint{font:14px/1.8 var(--sans);color:var(--muted);margin-top:10px}
+.reading-next{display:flex;gap:20px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin:25px 0}
+@media(max-width:640px){.support-card-grid,.concordance-grid{grid-template-columns:1fr}.support-card,.concordance-card{padding:19px}.reading-next .secondary-button{width:100%}.schedule-date{font-size:10px!important}.scene-connections h4{font-size:26px}}
 .tool-tabs{display:flex;gap:8px;border-bottom:1px solid var(--line);padding-bottom:12px;margin:24px 0 30px;flex-wrap:wrap}
 .tool-tabs button{padding:13px 18px;border:1px solid var(--line);border-radius:7px;color:var(--muted);background:var(--paper);min-height:46px}
 .tool-tabs button[aria-selected=true]{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
