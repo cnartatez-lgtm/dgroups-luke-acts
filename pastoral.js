@@ -2,7 +2,7 @@
 export const pastoralIntroduction = {
   "title": "A word before we begin",
   "welcome": "We come to this study with different stories. Some of us have known the Bible for years, while others are opening it with many questions. We may also be reading in a language that is not our first language. There is room for all of us to slow down, ask what a word means, and help one another understand. Our hope is that, as we come to know Jesus more clearly, we will learn to trust him more deeply and love one another more faithfully.",
-  "credit": "Adapted into clear English from Christian Nartatez’s preaching and teaching archive, BodyOfDivinity."
+  "credit": "Study notes developed by Associate Pastor Christian Nartatez at EIC Rueil-Malmaison, under the supervision of the Senior Pastors of EIC Paris."
 };
 export const pastoralConcepts = [
   {

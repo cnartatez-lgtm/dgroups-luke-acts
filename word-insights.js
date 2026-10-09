@@ -1,4 +1,4 @@
-// Reading aids adapted alongside the private BodyOfDivinity source audit.
+// Contextual reading aids. Editorial source records are retained privately.
 // These explanations never change Scripture or the forms used for counting.
 const entries = `
 Able|To have the power to act. Gabriel contrasts Zacharias's inability to speak with God's ability to fulfil his word; John later says that God can raise children for Abraham even from stones. God's purpose does not depend on our strength.
