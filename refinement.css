@@ -75,3 +75,8 @@
  #navigation .nav-item{flex:1 0 14.2857%;width:14.2857%;min-width:44px;font-size:8px}
 }
 @media print{.series-hero-overlay .hero-copy{background:#fff}.series-hero-overlay .hero-copy :is(h1,p,em,.eyebrow){color:#222}}
+
+/* Recognisable resource names, without unrelated category icons. */
+.resource-card h4.resource-brand{color:var(--accent);font-family:var(--sans);font-size:25px;font-weight:650;line-height:1.2;letter-spacing:-.65px;margin:0 0 16px;overflow-wrap:break-word}
+.resource-service{display:block;margin-top:7px;font-size:12px;font-weight:500;letter-spacing:.4px;line-height:1.4}
+@media(max-width:640px){.resource-card h4.resource-brand{font-size:25px;margin-bottom:14px}}
