@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "method": [
     {
       "title": "Observation",
@@ -17,7 +17,7 @@
   "sessions": [
     {
       "number": 1,
-      "bridgeQuestion": "What will Israel learn when one ordinary king after another fails to live up to the hope of a lasting King?",
+      "bridgeQuestion": "When Israel’s kings fail, what kind of king can people still hope for?",
       "hints": [
         "Before David, Israel asks for a king like other nations. Notice the hopes behind that request.",
         "Later, the kingdom faces division. Look for what God still preserves of his promise to David."
@@ -57,7 +57,7 @@
     },
     {
       "number": 2,
-      "bridgeQuestion": "Where will such a surprising King come from?",
+      "bridgeQuestion": "What might people overlook as they wait for the King who brings peace?",
       "hints": [
         "People search for guidance while distress grows. This gives a setting for the light promised in the next chapter.",
         "Later in the chapter, both leaders and people turn away from God. Notice how deep the need for a different ruler goes."
@@ -97,7 +97,7 @@
     },
     {
       "number": 3,
-      "bridgeQuestion": "Is God’s heart only for restoring Israel?",
+      "bridgeQuestion": "How far might the shepherd King’s care reach beyond his own people?",
       "hints": [
         "Fear and exile stand behind the promise of rescue. Read this to feel the need for a shepherd.",
         "David begins among the sheep, away from the centre of attention. Notice another unexpected beginning."
@@ -137,7 +137,7 @@
     },
     {
       "number": 4,
-      "bridgeQuestion": "What sign will tell us that what God promised so long ago has finally begun?",
+      "bridgeQuestion": "What might hope look like while people wait for God’s promise to begin?",
       "hints": [
         "Zion feels forgotten. God’s answer helps us hear restoration as hope for people in real distress.",
         "The promise to Abraham already includes other nations. Notice how far the blessing is meant to reach."
@@ -177,7 +177,7 @@
     },
     {
       "number": 5,
-      "bridgeQuestion": "If John’s role is to prepare the way, who is so important that he needs such preparation?",
+      "bridgeQuestion": "How might preparing for the coming King change what people expect from him?",
       "hints": [
         "A messenger comes before the Lord, and his coming brings cleansing. This gives a setting for John’s task.",
         "The promise speaks of hearts turning. Notice what kind of preparation the people need."
@@ -217,7 +217,7 @@
     },
     {
       "number": 6,
-      "bridgeQuestion": "What kind of salvation will this King actually bring when he comes?",
+      "bridgeQuestion": "How might God’s promised King change the lives of ordinary people?",
       "hints": [
         "Return to the promise of a house, a kingdom and a throne. Listen for its language in Gabriel’s announcement.",
         "A child is given as a sign in a time of fear. Compare this promise of God’s presence with Mary’s scene."
@@ -257,7 +257,7 @@
     },
     {
       "number": 7,
-      "bridgeQuestion": "What will it look like when God’s King actually steps into our world?",
+      "bridgeQuestion": "Where might we expect a King like this to enter the world?",
       "hints": [
         "Hannah’s song celebrates God lifting the weak. Listen for images that return in Mary’s praise.",
         "God promises a lasting relationship with Abraham’s descendants. This gives a setting for the close of Mary’s song."
@@ -297,7 +297,7 @@
     },
     {
       "number": 8,
-      "bridgeQuestion": "If heaven sees this birth very differently from the world, who will be the first to hear heaven’s explanation of what has just happened?",
+      "bridgeQuestion": "What might help people see more than an ordinary birth in Bethlehem?",
       "hints": [
         "Bethlehem is small, yet a shepherd ruler will come from it. Keep that contrast in mind as you read Luke.",
         "Mary has sung about the powerful and the lowly. Her words may sharpen what we notice in the birth scene."
@@ -337,7 +337,7 @@
     },
     {
       "number": 9,
-      "bridgeQuestion": "Will the people who have waited for God to comfort Israel recognise his salvation when they see it?",
+      "bridgeQuestion": "What might help people recognise God’s answer after years of waiting?",
       "hints": [
         "A child is promised whose rule brings peace. Listen for that hope in the angels’ announcement.",
         "The call to comfort follows sorrow and guilt. This helps us hear why news of a Saviour matters."
@@ -377,7 +377,7 @@
     },
     {
       "number": 10,
-      "bridgeQuestion": "Who does Jesus understand himself to be?",
+      "bridgeQuestion": "What might we discover about this child as he grows?",
       "hints": [
         "The servant’s mission reaches beyond Israel. Compare that reach with Simeon’s words about the child.",
         "Zechariah names forgiveness, light and peace. These give shape to the salvation Simeon and Anna await."
@@ -417,7 +417,7 @@
     },
     {
       "number": 11,
-      "bridgeQuestion": "What happens when this hidden Son steps into public view and begins his mission?",
+      "bridgeQuestion": "How might knowing who Jesus is shape what we expect him to do?",
       "hints": [
         "Samuel also grows in favour with God and people. Compare the familiar childhood language with Jesus’ unique words about his Father.",
         "Recall the identity announced before Jesus’ birth. His words in the temple add a new scene to that story."
@@ -457,7 +457,7 @@
     },
     {
       "number": 12,
-      "bridgeQuestion": "What will his rule look like when he begins to confront the world as it really is?",
+      "bridgeQuestion": "What might happen when this King meets a world that needs to change?",
       "hints": [
         "Read the prophecy Luke quotes. Notice the road being prepared and the breadth of the promised salvation.",
         "The Spirit rests on a servant who brings justice gently. Keep this portrait in mind as Jesus’ public work begins."
@@ -495,5 +495,6 @@
         }
       ]
     }
-  ]
+  ],
+  "discussionNote": "What other related things do you see? Discuss and reflect with your study partners."
 }

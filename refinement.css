@@ -1,0 +1,53 @@
+/* Section identity and restrained, pointer-led double frames. */
+.series-hero{grid-template-columns:1.2fr 1fr;gap:32px;margin-bottom:24px;padding-bottom:25px}
+.series-hero>img{height:auto;aspect-ratio:2.9/1;object-fit:cover;object-position:50% 53%;box-shadow:none}
+.series-hero h1{font-size:clamp(35px,3.3vw,54px)}
+.section-banner{position:relative;isolation:isolate;overflow:hidden;border-radius:12px;background:#351623;width:100%;min-width:0;min-height:166px;aspect-ratio:5/1;margin-bottom:20px;color:#fff8ed}
+.section-banner>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-2}
+.section-banner::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#260a20d9,#360c2466 57%,#260a2010);z-index:-1}
+.section-banner>div{height:100%;padding:clamp(22px,3vw,38px);display:flex;flex-direction:column;justify-content:center}
+.section-banner .eyebrow{font-size:8px;letter-spacing:1.5px;color:#f1d9dc;line-height:1.8}
+.section-banner p{margin:6px 0 0;font-size:13px;color:#f7e9e5}
+.section-banner .banner-title{font:clamp(34px,4vw,49px)/1.08 var(--serif);color:#fffaf0}
+.location-trail{display:flex;flex-wrap:wrap;gap:6px 9px;font-size:11px;line-height:1.7;color:var(--muted);margin:18px 0 25px}
+.location-trail span{color:var(--accent)}
+.breadcrumb{display:flex;gap:13px;align-items:center;flex-wrap:wrap}
+.breadcrumb .crumb-series{margin:0;color:var(--muted)}
+.breadcrumb strong{color:var(--accent)}
+.journey-frame{--frame-a:#b62d4c;--frame-b:#360b20;--frame-c:#da8598;--frame-angle:125deg;position:relative;border:2px solid transparent!important;background:linear-gradient(var(--paper),var(--paper)) padding-box,conic-gradient(from var(--frame-angle),var(--frame-b),var(--frame-a),var(--frame-c),var(--frame-b),var(--frame-a),var(--frame-b)) border-box!important;padding:5px;border-radius:12px;isolation:isolate}
+.journey-frame::after{content:'';position:absolute;inset:4px;border:1px solid transparent;border-radius:7px;background:conic-gradient(from var(--frame-angle),var(--frame-a),var(--frame-b),var(--frame-c),var(--frame-a)) border-box;mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);mask-composite:exclude;-webkit-mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;pointer-events:none;z-index:1}
+.journey-frame.is-complete{--frame-a:#727e30;--frame-b:#206766;--frame-c:#56c8be}
+.session-art.journey-frame>img,.session-art.journey-frame>.series-cover{border-radius:6px}
+.session-art.journey-frame .art-unlock{border:0;border-radius:0 0 6px 6px}
+.session-art.journey-frame .completed-badge{z-index:2}
+.session-thumb.journey-frame{border-width:1px!important;padding:3px;border-radius:6px}
+.session-thumb.journey-frame::after{inset:2px;border-radius:4px}
+.concept-card.journey-frame{display:flex;flex-direction:column;text-align:left;width:100%;min-width:0;padding:5px;border-radius:12px;cursor:pointer;color:var(--ink);font:inherit;touch-action:pan-y pinch-zoom}
+.concept-card.journey-frame .theme-image{width:100%;max-width:100%;margin:0;aspect-ratio:2.3/1;border-radius:6px 6px 0 0;object-fit:cover}
+.concept-copy{display:block;padding:23px 20px 25px}
+.concept-title{display:block;font:28px/1.25 var(--serif);margin:12px 0 0}
+.concept-copy .eyebrow{display:block;font-size:9px;line-height:1.8}
+.topic-invitation,.reading-return-note{font-size:13px;color:var(--muted);line-height:1.8}
+.reading-return-note{border-top:1px solid var(--line);padding-top:18px}
+.concept-card:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.narrative-bridge .bridge-invitation{font-size:13px;color:var(--muted);line-height:1.85;margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+.study-selector{background:var(--paper);border-radius:14px;border:1px solid var(--line);padding:20px;box-shadow:0 5px 18px #35142305}
+.selector-fields{gap:18px;min-width:0}
+.selector-fields label{letter-spacing:.2px;min-width:0;color:var(--muted)}
+.study-selector select{appearance:none;-webkit-appearance:none;min-height:50px;border:1px solid var(--line);border-radius:10px;padding:13px 38px 13px 15px;background-color:var(--bg);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='10' viewBox='0 0 14 10'%3E%3Cpath d='m2 3 5 5 5-5' fill='none' stroke='%23942e42' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 15px center;cursor:pointer;color:var(--ink);width:100%;max-width:100%;text-overflow:ellipsis}
+.study-selector select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.week-arrows .icon-button{border:1px solid var(--line);background:var(--paper);border-radius:50%}
+.about-credits{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:26px}
+@media(hover:hover) and (pointer:fine){.concept-card.journey-frame:hover{box-shadow:0 5px 19px #40152816;transform:translateY(-2px)}}
+@media(max-width:900px){.series-hero{grid-template-columns:1fr;gap:21px}.series-hero>img{height:auto;aspect-ratio:3.5/1}.section-banner{aspect-ratio:3.8/1}}
+@media(max-width:640px){
+ .series-hero h1{font-size:42px}.series-hero{margin-bottom:20px;padding-bottom:20px}.series-hero>img{aspect-ratio:3/1;border-radius:9px}
+ .section-banner{aspect-ratio:2.6/1;min-height:145px;border-radius:10px}.section-banner>img{object-position:59% center}.section-banner>div{padding:21px}.section-banner .eyebrow{font-size:7px;letter-spacing:.8px;max-width:220px}.section-banner .banner-title{font-size:35px}.section-banner p{font-size:12px}
+ .breadcrumb{display:block;max-width:calc(100% - 138px);line-height:1.35}.breadcrumb .crumb-series{display:block;font-size:9px;letter-spacing:.2px}.breadcrumb>strong{display:block;font-size:12px;white-space:normal;margin-top:3px}
+ .location-trail{font-size:10px;margin:15px 0 22px;gap:4px 7px}
+ .study-selector{padding:15px}.selector-fields label{font-size:11px}.study-selector select{font-size:16px;min-height:52px;padding-left:13px}.selector-fields{gap:16px}
+ .concept-card.journey-frame{padding:5px}.concept-card.journey-frame .theme-image{width:100%;margin:0}.concept-title{font-size:26px}.concept-copy{padding:20px 17px 23px}
+ .narrative-bridge .bridge-invitation{font-size:14px}.reading-return-note{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){.journey-frame{--frame-angle:125deg!important}.concept-card.journey-frame:hover{transform:none}}
+@media print{.section-banner,.location-trail{display:none}.journey-frame::after{display:none}}
