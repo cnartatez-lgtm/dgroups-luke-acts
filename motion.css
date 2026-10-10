@@ -1,0 +1,80 @@
+/* D-Groups motion: brief, purposeful feedback; no perpetual animations. */
+:root{--motion-ease:cubic-bezier(.22,.7,.25,1);--motion-shadow:0 9px 24px #35142316}
+.dark{--motion-shadow:0 9px 24px #0005}
+
+/* New sections arrive in a short sequence; choosing a word/week does not replay it. */
+.study-panel.view-enter{animation:none}
+.study-panel.view-enter>:nth-child(-n+5){animation:section-arrive .38s var(--motion-ease) backwards}
+.study-panel.view-enter>:nth-child(2){animation-delay:35ms}
+.study-panel.view-enter>:nth-child(3){animation-delay:65ms}
+.study-panel.view-enter>:nth-child(4){animation-delay:90ms}
+.study-panel.view-enter>:nth-child(5){animation-delay:115ms}
+.study-panel.view-enter .section-banner>img{animation:scene-arrive 1s var(--motion-ease) both}
+@keyframes section-arrive{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@keyframes scene-arrive{from{transform:scale(1.035)}to{transform:scale(1)}}
+
+/* Controls retain their native touch and keyboard behaviour. */
+:is(button,.primary-button,.secondary-button,.nav-item,summary,select,input[type=search]){transition:background-color .2s ease,color .2s ease,border-color .2s ease,box-shadow .22s ease,transform .22s var(--motion-ease),opacity .2s ease}
+:is(.primary-button,.secondary-button){position:relative;overflow:hidden;isolation:isolate}
+.primary-button::after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,transparent 25%,#ffffff24 48%,transparent 70%);transform:translateX(-130%);transition:transform .6s var(--motion-ease)}
+:is(.primary-button,.secondary-button)>span{display:inline-block;transition:transform .2s var(--motion-ease)}
+.nav-item svg{transition:transform .24s var(--motion-ease),stroke .2s ease}
+.nav-item.active svg{animation:nav-settle .3s var(--motion-ease)}
+@keyframes nav-settle{from{transform:scale(.85)}to{transform:scale(1)}}
+.text-link{transition:color .18s ease,text-decoration-color .18s ease,transform .2s var(--motion-ease);text-decoration:underline;text-decoration-color:transparent;text-underline-offset:5px}
+.resource-card,.schedule-item,.concept-card.journey-frame{transition:transform .25s var(--motion-ease),border-color .2s ease,box-shadow .25s ease,background-color .2s ease}
+.resource-card .text-link{display:inline-flex}
+.word-cloud-pill b{transition:background-color .2s ease,color .2s ease}
+.word-cloud-pill.active b{background:var(--accent);color:var(--paper)}
+:is(select,input[type=search]):focus-visible{box-shadow:0 0 0 4px var(--accent-soft)}
+:is(button,a,summary,select,input):focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.series-hero-overlay :is(a,button):focus-visible{outline-color:#fff3e5}
+summary b{display:inline-block;transition:transform .22s var(--motion-ease)}
+details[open]>summary b{transform:rotate(45deg)}
+details[open]>:not(summary){animation:detail-arrive .22s var(--motion-ease)}
+@keyframes detail-arrive{from{opacity:.3;transform:translateY(-4px)}to{opacity:1;transform:none}}
+dialog[open]{animation:dialog-arrive .24s var(--motion-ease)}
+dialog[open]::backdrop{animation:backdrop-arrive .2s ease}
+@keyframes dialog-arrive{from{opacity:0;transform:translateY(12px) scale(.99)}to{opacity:1;transform:none}}
+@keyframes backdrop-arrive{from{opacity:0}to{opacity:1}}
+.toast{transition:opacity .2s ease,transform .25s var(--motion-ease);transform:translate(-50%,9px)}
+.toast.show{transform:translate(-50%,0)}
+
+@media(hover:hover) and (pointer:fine){
+ .primary-button:not(:disabled):hover{transform:translateY(-2px);box-shadow:0 6px 18px #52142630}
+ .primary-button:not(:disabled):hover::after{transform:translateX(130%)}
+ .primary-button:not(:disabled):hover>span,.secondary-button:not(:disabled):hover>span{transform:translateX(3px)}
+ .secondary-button:not(:disabled):hover,.icon-button:not(:disabled):hover{transform:translateY(-2px);background:var(--accent-soft);border-color:var(--accent);box-shadow:0 4px 12px #52142614}
+ .nav-item:hover svg{transform:translateY(-2px) rotate(-5deg)}
+ .nav-item:hover{background:var(--accent-soft)}
+ .text-link:not(:disabled):hover{color:var(--accent);text-decoration-color:currentColor}
+ .resource-card:hover,.concept-card.journey-frame:hover{transform:translateY(-4px);box-shadow:var(--motion-shadow);border-color:var(--accent)}
+ .resource-card:hover .text-link{transform:translateX(4px)}
+ .schedule-item:hover{transform:translateX(3px);background:var(--accent-soft);box-shadow:0 3px 12px #35142309}
+ .word-cloud-pill:hover,.word-pill:hover{transform:translateY(-3px);box-shadow:0 5px 14px #52142618}
+ .tool-tabs button:not(:disabled):hover,.tabs button:not(:disabled):hover{background:var(--accent-soft);border-color:var(--accent);transform:translateY(-1px)}
+ summary:hover{background:var(--accent-soft)}
+ .study-selector select:hover{border-color:var(--accent)}
+}
+/* Informational and locked artwork should not pretend to be a button. */
+.module-card:hover{transform:none;box-shadow:none}
+:is(button,.primary-button,.secondary-button,.resource-card,.nav-item):not(:disabled):active{transform:scale(.98);transition-duration:80ms}
+.schedule-item:active{transform:scale(.995)!important}
+.nav-item:active svg{transform:scale(.94)}
+button:disabled{transform:none!important;box-shadow:none!important}
+button:disabled::after{display:none}
+@media(hover:none){
+ .resource-card:hover,.concept-card.journey-frame:hover,.schedule-item:hover,.word-cloud-pill:hover,.word-pill:hover{transform:none;box-shadow:none}
+ .resource-card:active,.concept-card.journey-frame:active{background-color:var(--accent-soft)}
+}
+@media(max-width:640px){
+ .study-panel.view-enter>:nth-child(-n+5){animation-duration:.28s}
+ .study-panel.view-enter .section-banner>img{animation:none}
+ dialog[open]{animation-duration:.2s}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+ :is(button,a,.nav-item svg,.resource-card,.word-pill,.word-cloud-pill,.concept-card.journey-frame,.schedule-item):is(:hover,:active){transform:none!important}
+ .primary-button::after{display:none}
+}
+@media print{*,*::before,*::after{animation:none!important;transition:none!important}}
