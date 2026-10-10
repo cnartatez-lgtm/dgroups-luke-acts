@@ -87,3 +87,6 @@ dialog::backdrop{backdrop-filter:none}
  button:active,.primary-button:hover,.primary-button:active,.secondary-button:active,.resource-card:hover,.word-pill:hover,.word-cloud-pill:hover{transform:none!important}
 }
 @media print{.preview-button,.site-review-note,.toast{display:none!important}}
+
+/* A future week cannot be completed before its scheduled opening. */
+.completion-control button:disabled{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none}
