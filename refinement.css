@@ -49,7 +49,7 @@
  .concept-card.journey-frame{padding:5px}.concept-card.journey-frame .theme-image{width:100%;margin:0}.concept-title{font-size:26px}.concept-copy{padding:20px 17px 23px}
  .narrative-bridge .bridge-invitation{font-size:14px}.reading-return-note{font-size:12px}
 }
-@media(prefers-reduced-motion:reduce){.journey-frame{--frame-angle:125deg!important}.concept-card.journey-frame:hover{transform:none}}
+
 @media print{.section-banner,.location-trail{display:none}.journey-frame::after{display:none}}
 
 /* One compact series cover, with all its content on the illustration. */

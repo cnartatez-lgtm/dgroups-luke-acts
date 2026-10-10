@@ -1,4 +1,4 @@
-/* D-Groups motion: brief, purposeful feedback; no perpetual animations. */
+/* D-Groups motion: scene movement plus an explicit saved On / Off control. */
 :root{--motion-ease:cubic-bezier(.22,.7,.25,1);--motion-shadow:0 9px 24px #35142316}
 .dark{--motion-shadow:0 9px 24px #0005}
 
@@ -9,7 +9,7 @@
 .study-panel.view-enter>:nth-child(3){animation-delay:65ms}
 .study-panel.view-enter>:nth-child(4){animation-delay:90ms}
 .study-panel.view-enter>:nth-child(5){animation-delay:115ms}
-.study-panel.view-enter .section-banner>img{animation:scene-arrive 1s var(--motion-ease) both}
+
 @keyframes section-arrive{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
 @keyframes scene-arrive{from{transform:scale(1.035)}to{transform:scale(1)}}
 
@@ -69,12 +69,58 @@ button:disabled::after{display:none}
 }
 @media(max-width:640px){
  .study-panel.view-enter>:nth-child(-n+5){animation-duration:.28s}
- .study-panel.view-enter .section-banner>img{animation:none}
+
  dialog[open]{animation-duration:.2s}
 }
-@media(prefers-reduced-motion:reduce){
- *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
- :is(button,a,.nav-item svg,.resource-card,.word-pill,.word-cloud-pill,.concept-card.journey-frame,.schedule-item):is(:hover,:active){transform:none!important}
- .primary-button::after{display:none}
-}
+
 @media print{*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Slow camera movement keeps section artwork alive while copy stays still. */
+.section-banner>img,.series-hero-overlay>img{
+ animation:living-scene 16s ease-in-out infinite alternate;
+ animation-play-state:paused;
+ translate:var(--scene-x,0px) var(--scene-y,0px);
+ transition:translate .7s var(--motion-ease);
+ transform-origin:55% 50%;
+}
+.series-hero-overlay>img{animation-duration:22s}
+.section-banner.motion-visible>img,.series-hero-overlay.motion-visible>img{animation-play-state:running}
+@keyframes living-scene{
+ from{transform:scale(1.045) translate(-.6%,.2%)}
+ to{transform:scale(1.13) translate(1.2%,-.7%)}
+}
+.section-banner::after{
+ content:'';position:absolute;inset:-30%;z-index:-1;pointer-events:none;
+ background:linear-gradient(112deg,transparent 35%,#f2b5a31c 48%,transparent 62%);
+ animation:scene-light 14s ease-in-out infinite alternate;animation-play-state:paused;
+}
+.section-banner.motion-visible::after{animation-play-state:running}
+@keyframes scene-light{from{transform:translateX(-20%);opacity:.25}to{transform:translateX(18%);opacity:.85}}
+.study-panel.view-enter .section-banner>div{animation:banner-copy .7s var(--motion-ease) both}
+@keyframes banner-copy{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+html[data-motion-paused=true] :is(.section-banner,.series-hero-overlay)>img,
+html[data-motion-paused=true] .section-banner::after{animation-play-state:paused}
+.motion-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;white-space:nowrap;padding:9px 13px;border:1px solid var(--accent);border-radius:24px;background:var(--accent-soft);color:var(--accent);font-size:12px;font-weight:500}
+.motion-toggle>span{font-size:14px;line-height:1;width:12px}
+.motion-toggle[aria-pressed=false]{border-color:var(--line);background:var(--surface);color:var(--muted)}
+@media(hover:hover) and (pointer:fine){.motion-toggle:hover{box-shadow:0 4px 15px #52142622;transform:translateY(-2px)}}
+@media(max-width:1100px){.top-actions .translation-label{display:none}}
+@media(max-width:640px){
+ .motion-toggle{font-size:11px;padding:8px 10px;gap:5px}
+ .topbar .breadcrumb{flex:1;max-width:none;margin-right:6px}
+ .section-banner>img{animation-duration:19s}
+}
+/* Off stops CSS, JS pointer effects and smooth scrolling, without hiding content. */
+html[data-motion=off],html[data-motion=off] *,html[data-motion=off] *::before,
+html[data-motion=off] *::after,html[data-motion=off] dialog::backdrop{
+ animation:none!important;transition:none!important;scroll-behavior:auto!important;
+}
+html[data-motion=off] :is(.section-banner,.series-hero-overlay)>img{transform:none!important;translate:none!important}
+html[data-motion=off] .section-banner::after,html[data-motion=off] .primary-button::after{display:none}
+html[data-motion=off] :is(button,a,summary,.nav-item svg,.resource-card,.word-pill,.word-cloud-pill,.concept-card.journey-frame,.schedule-item):is(:hover,:active){transform:none!important}
+html[data-motion=off] .journey-frame{--frame-angle:125deg!important}
+/* Fallback for a page without an explicit app preference. The app's On switch wins. */
+@media(prefers-reduced-motion:reduce){
+ html:not([data-motion=on]),html:not([data-motion=on]) *,html:not([data-motion=on]) *::before,html:not([data-motion=on]) *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+@media print{.motion-toggle{display:none!important}.section-banner>img,.series-hero-overlay>img{transform:none!important;translate:none!important}}

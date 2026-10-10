@@ -82,10 +82,7 @@ dialog::backdrop{backdrop-filter:none}
  footer{padding-bottom:calc(24px + env(safe-area-inset-bottom));flex-wrap:wrap}
  .reflection-module-head h3{overflow-wrap:anywhere}
 }
-@media(prefers-reduced-motion:reduce){
- *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
- button:active,.primary-button:hover,.primary-button:active,.secondary-button:active,.resource-card:hover,.word-pill:hover,.word-cloud-pill:hover{transform:none!important}
-}
+
 @media print{.preview-button,.site-review-note,.toast{display:none!important}}
 
 /* A future week cannot be completed before its scheduled opening. */
