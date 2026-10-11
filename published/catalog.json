@@ -4,11 +4,12 @@
     {
       "id": "luke-acts-01",
       "number": 1,
-      "title": "The Promise of a Lasting King",
+      "title": "Pastoral Commentary · Week 1 · 2 Samuel 7:8 to 16",
       "passage": "2 Samuel 7:8–16",
       "studyWeek": "2026-10-12",
       "releaseAt": "2026-10-12T06:00:00+02:00",
-      "status": "awaiting-content"
+      "commentaryReleaseAt": "2026-10-11T00:00:00+02:00",
+      "status": "available"
     },
     {
       "id": "luke-acts-02",
