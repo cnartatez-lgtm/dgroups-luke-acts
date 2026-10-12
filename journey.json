@@ -14,8 +14,8 @@
   "sessions": [
     {
       "number": 1,
-      "image": "session-01.webp",
-      "alt": "David sits in prayer beside Nathan near a tent sanctuary, with Jerusalem and the sheep hills beyond.",
+      "image": "commentary-week-01.webp",
+      "alt": "David listens to Nathan in a sunlit courtyard, while a shepherd and sheep in the distance recall the grace that brought him from the fields to the throne.",
       "narrativeQuestion": "What do the promise to David and these scenes show about the difference between wanting a king and needing a faithful, lasting King?",
       "connections": [
         {
@@ -61,7 +61,8 @@
             }
           ]
         }
-      ]
+      ],
+      "commentaryTitle": "The King Who Lives and Reigns Forever"
     },
     {
       "number": 2,
