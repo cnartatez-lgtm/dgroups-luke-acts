@@ -1,4 +1,4 @@
-import {wordDefinitions,actionDefinitions,insightFor} from './word-insights.js';
+import {wordDefinitions,actionDefinitions,insightFor} from './word-insights.js?v=20261012-weekly';
 import {glossaryExpansion} from './pastoral.js';
 export {pastoralConcepts as concepts} from './pastoral.js';
 const readingVocabulary=[

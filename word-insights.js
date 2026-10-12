@@ -1,3 +1,4 @@
+import {weeklyWordNotes,wordMeanings} from './weekly-vocabulary.js?v=20261012-weekly';
 // Contextual reading aids. Editorial source records are retained privately.
 // These explanations never change Scripture or the forms used for counting.
 const entries = `
@@ -143,6 +144,10 @@ const foreverContexts={
  'Luke.1':'In Luke 1:33, “forever” describes the reign of Mary’s son, and in 1:55 it belongs to the remembered promise of mercy to Abraham and his descendants. Luke connects the King’s arrival with God’s long faithfulness, giving us reason to trust him while we wait.'
 };
 export function insightFor(word,verses,definition){
+ const ranges=[['2Sam.7',8,16],['Isa.9',1,7],['Mic.5',1,5],['Isa.49',1,6],['Luke.1',5,25],['Luke.1',26,38],['Luke.1',39,56],['Luke.2',1,7],['Luke.2',8,20],['Luke.2',21,38],['Luke.2',39,52],['Luke.3',1,22]];
+ const index=ranges.findIndex(([chapter,start,end])=>verses.length && verses.every(v=>v.key?.split('.').slice(0,2).join('.')===chapter&&v.verse>=start&&v.verse<=end));
+ const note=weeklyWordNotes[index+1]?.[word];
+ if(note){const meaning=wordMeanings[word]||definition?.match(/^[\s\S]*?[.!?](?:\s|$)/)?.[0]?.trim();return meaning?meaning+'\n\n'+note:note;}
  if(word!=='Forever')return definition;
  const books=[...new Set(verses.filter(v=>/\bforever\b/i.test(v.text)).map(v=>v.key?.split('.').slice(0,2).join('.')))];
  return books.map(key=>foreverContexts[key]).filter(Boolean).join('\n\n')||definition;
