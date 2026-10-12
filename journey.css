@@ -75,3 +75,7 @@
 .word-highlight-control .annotation{margin:4px 0 0 32px}
 .weekly-glossary-search{grid-template-columns:1fr;max-width:640px}
 @media(max-width:540px){.tools-week-selector{flex-wrap:wrap}.tools-week-selector>label{flex-basis:100%}.tools-week-selector .week-arrows{margin-left:auto}.word-reading-notice{padding:14px 16px}.word-highlight-control label{align-items:flex-start}.word-highlight-control input[type=checkbox]{margin-top:4px}}
+.minimal-story-module>h3{margin:0 0 22px;font:clamp(25px,3.2vw,34px)/1.2 var(--serif)}
+.minimal-story-module .module-art{overflow:hidden;border-radius:8px}
+.minimal-story-module .module-art>img{display:block;width:100%;height:auto}
+.minimal-story-module .module-art .series-cover{display:block;margin:0}
