@@ -3,7 +3,7 @@ export const commentaryPreface = 'These commentaries grow out of this week’s p
 export const commentaryAuthority = 'Only the Bible is inspired by God. These commentaries are human reflections, always read them under the authority of God’s Word.';
 
 export function commentaryIntroduction(introduction='') {
-  const blocks=String(introduction).split(/\n\s*\n/).map(p=>p.trim()).filter(Boolean);
+  const blocks=String(introduction).replace(/^Before You Begin\s*\n/, '').split(/\n\s*\n/).map(p=>p.trim()).filter(Boolean);
   // Remove only the known shared opening, preserving each lesson's own prose.
   if(blocks[0]==='Before You Begin') blocks.shift();
   if(blocks[0]===commentaryPreface) blocks.shift();
