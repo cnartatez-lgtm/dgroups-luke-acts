@@ -168,7 +168,7 @@ async function refreshReleases(){
 }
 window.addEventListener('focus',refreshReleases);
 setInterval(()=>{if(!document.hidden)refreshReleases()},60000);
-async function start(){try{[curriculum,bible,catalog,journey,weeklyStudy]=await Promise.all([fetchJSON('./curriculum.json?v=week03-20261026'),fetchJSON('./data.json'),fetchJSON($('meta[name="lesson-catalog"]').content,{cache:'no-store'}),fetchJSON('./journey.json?v=week03-20261026'),fetchJSON('./weekly-study.json',{cache:'no-store'})]);await loadReflections();completed=readProgress();if(curriculum.modules.some(m=>storyAvailable(m.id)))await ensureStories();go(location.hash.slice(1)||'introduction',false);}catch{$('#view').innerHTML='<div class="error"><h2>The study could not be opened</h2><p>Please check your connection, then reload the page.</p><button id="retry" class="primary-button">Try again</button></div>';$('#retry').onclick=start}}
+async function start(){try{[curriculum,bible,catalog,journey,weeklyStudy]=await Promise.all([fetchJSON('./curriculum.json?v=week03-20261026'),fetchJSON('./data.json'),fetchJSON($('meta[name="lesson-catalog"]').content,{cache:'no-store'}),fetchJSON('./journey.json?v=sheep-20261030'),fetchJSON('./weekly-study.json',{cache:'no-store'})]);await loadReflections();completed=readProgress();if(curriculum.modules.some(m=>storyAvailable(m.id)))await ensureStories();go(location.hash.slice(1)||'introduction',false);}catch{$('#view').innerHTML='<div class="error"><h2>The study could not be opened</h2><p>Please check your connection, then reload the page.</p><button id="retry" class="primary-button">Try again</button></div>';$('#retry').onclick=start}}
 start();
 
 
