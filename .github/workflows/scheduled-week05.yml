@@ -1,0 +1,34 @@
+name: Release approved Luke week 5
+on:
+  schedule:
+    # UTC: 05:00 = 06:00 Europe/Paris after the October DST change.
+    # Retries also cover delayed jobs; the script enforces the full 2026 date.
+    - cron: '7,22,37,52 * 9-11 11 *'
+  workflow_dispatch:
+    inputs:
+      validate_only:
+        description: 'Rehearse safely without publishing scheduled teaching'
+        type: boolean
+        default: true
+        required: true
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: approved-week05-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out public app
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Validate and publish approved package when due
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DGROUPS_WEEK05_KEY: ${{ secrets.DGROUPS_WEEK05_KEY }}
+          VALIDATE_ONLY: ${{ github.event_name == 'workflow_dispatch' && inputs.validate_only && 'true' || 'false' }}
+        run: node .github/scripts/cloud-week05.mjs
