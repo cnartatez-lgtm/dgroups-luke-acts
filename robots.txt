@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /.github/
+
+Sitemap: https://dgroupapp-luke-acts.eicparis.org/sitemap.xml

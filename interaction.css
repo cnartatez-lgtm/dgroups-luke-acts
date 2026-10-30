@@ -36,12 +36,12 @@ dialog{--dialog-pad:28px;padding:var(--dialog-pad);max-height:88vh;max-height:88
 .commentary-font-controls{grid-column:1 / -1;grid-row:2;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px}
 .commentary-font-controls .icon-button{font-size:16px;border:1px solid var(--line);border-radius:8px}
 .commentary-font-controls output{min-width:38px;text-align:center;font-variant-numeric:tabular-nums;color:var(--muted)}
-#detail.commentary-reader #dialog-body p{font-size:var(--commentary-size,14px)}
-#detail.commentary-reader #dialog-body h3{font-size:max(24px,calc(var(--commentary-size,14px) * 1.25))}
-#detail.commentary-reader #dialog-body h2{font-size:clamp(28px,calc(var(--commentary-size,14px) * 1.8),40px)}
-#detail.commentary-reader #dialog-body .point-reference{font-size:max(12px,calc(var(--commentary-size,14px) * .8))}
+#detail.commentary-reader #dialog-body p{font-size:var(--commentary-size,16px)}
+#detail.commentary-reader #dialog-body h3{font-size:max(24px,calc(var(--commentary-size,16px) * 1.25))}
+#detail.commentary-reader #dialog-body h2{font-size:clamp(28px,calc(var(--commentary-size,16px) * 1.8),40px)}
+#detail.commentary-reader #dialog-body .point-reference{font-size:max(12px,calc(var(--commentary-size,16px) * .8))}
 #detail.commentary-reader{scroll-padding-top:130px}
-@media(max-width:540px){#detail.commentary-reader #dialog-body h2{font-size:clamp(28px,calc(var(--commentary-size,14px) * 1.5),32px)}.commentary-font-controls{gap:8px}}
+@media(max-width:540px){#detail.commentary-reader #dialog-body h2{font-size:clamp(28px,calc(var(--commentary-size,16px) * 1.5),32px)}.commentary-font-controls{gap:8px}}
 dialog::backdrop{backdrop-filter:none}
 .toast{max-width:calc(100vw - 32px);bottom:calc(20px + env(safe-area-inset-bottom));pointer-events:none;line-height:1.6}
 .schedule-item{display:grid}

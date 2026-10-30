@@ -148,6 +148,8 @@ async function main() {
   const git=(...args)=>execFileSync('git',args,{cwd:root,encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim();
   assert.equal(git('status','--porcelain'),'','Unexpected checkout changes');
   const files=applyPayload(root,payload);
+  execFileSync('node',['.github/scripts/build-discovery.mjs',root],{cwd:root,stdio:'inherit'});
+  files.push('devotionals','sitemap.xml','robots.txt','discovery.css');
   git('add','--',...files);
   if(git('diff','--cached','--name-only')) {
     git('config','user.name','github-actions[bot]');
