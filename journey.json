@@ -289,8 +289,8 @@
     },
     {
       "number": 6,
-      "image": "session-06.webp",
-      "alt": "Mary listens thoughtfully to Gabriel beside a loom and clay jars in a simple Nazareth home.",
+      "image": "luke-01-nazareth-home-aerial-20261030.webp",
+      "alt": "An aerial view of a modest Galilean house and courtyard, with an open doorway, clay jar and woven mats in soft daylight, evoking the ordinary setting of Mary’s story.",
       "narrativeQuestion": "Which words in Gabriel’s announcement help us recognise the promised King, and what remains surprising about how He comes?",
       "connections": [
         {
@@ -341,7 +341,8 @@
             }
           ]
         }
-      ]
+      ],
+      "commentaryTitle": "Grace in an Ordinary Place"
     },
     {
       "number": 7,
