@@ -6,7 +6,7 @@
     {
       "id": 1,
       "releaseAt": "2026-11-09T00:00:00+01:00",
-      "released": false,
+      "released": true,
       "available": true,
       "readings": [],
       "concepts": [
@@ -207,6 +207,22 @@
         "questions": [],
         "credit": "Teaching supplied for Act I; arranged as individual readings, with selected transitions edited to keep the unfolding story open.",
         "wordCount": 1336
+      },
+      "suppliedReflection": {
+        "module": 1,
+        "title": "A Name We Receive",
+        "reference": "2 Samuel 7:8 to 16 · Isaiah 9:1 to 7 · Micah 5:1 to 5 · Isaiah 49:1 to 6",
+        "paragraphs": [
+          "When we read these four passages side by side, one small word keeps coming back. That word is “name.” God promises David, “I will make you a great name” (2 Samuel 7:9). Isaiah announces a child whose “name will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace” (Isaiah 9:6). Micah speaks of a ruler who will shepherd God’s people “in the majesty of the name of Yahweh his God” (Micah 5:4). And in Isaiah 49, the Servant says that God “has mentioned my name” even before he was born (Isaiah 49:1). This word runs like a thread through the whole story, so it is worth stopping to ask why names matter so much.",
+          "The truth is that we still live under names today. A name is never just a word. It carries a story. Think of Lionel Messi. Nobody needs to explain his family tree for millions of people to know who he is. His name already tells a story of years of training, goals and victories. Or think of a famous university. When we hear that someone studied there, we immediately expect certain things from that person, even before we know what they can really do.",
+          "What do these examples have in common? In each case, the name carries meaning that has been building up over time. There is a whole story behind it, and that story changes the way people see the one who carries it. In the ancient world, a name often told others where you came from and to whom you belonged. Today it still does that, but it also tells others what you stand for, what story you carry and who you want to be connected with.",
+          "But the Bible shows us an important difference here. Making a name for yourself is not the same as receiving a name from God.",
+          "In Genesis 11, the people who build the tower of Babel say, “let’s make a name for ourselves.” Just one chapter later, in Genesis 12, God speaks to Abraham and says, “I will bless you and make your name great.” The words are almost the same, yet the two stories go in opposite directions. At Babel, people try to build their own greatness. With Abraham, greatness is a gift that God gives.",
+          "This does not mean that every wish to be known or respected is sinful. Proverbs 22 tells us that “a good name is more desirable than great riches.” A good reputation has real value. The difference lies in where that greatness comes from, what it is for and whom we depend on to receive it.",
+          "This is exactly what we see in David’s life. In the end, his greatness did not come from his own ability to build an image. God reminds him, “I took you from the sheep pen” (2 Samuel 7:8), and only then promises, “I will make you a great name.” David’s name was a gift, given to him as part of God’s plan to save his people. The Servant in Isaiah 49 shows the same pattern. God called him and spoke his name before he had done anything at all. His identity came first from God, not from his achievements.",
+          "Our world often works very differently. Today we can build a public image, create a personal brand, choose carefully what we show online, grow a professional reputation and present the identity we want others to see. None of these things is evil in itself. But they lead us to a much deeper question. Who really decides our worth and our identity? Is it the image we build of ourselves, the people who recognize us, or the God who created us?",
+          "In the end, our own story finds its true place inside a much bigger story, the great work God is doing in the world through the gospel. We are not invited simply to sit and wait, like an audience watching from the outside. We are invited as a people who have received a name from God. And that name is not only for us. Like the Servant who was called to be “a light to the nations” (Isaiah 49:6), we receive God’s name so that we can reach others and invite them to become part of God’s family too."
+        ]
       }
     },
     {

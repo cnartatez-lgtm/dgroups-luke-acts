@@ -100,7 +100,16 @@ function filterGlossary(){
 
 function jumpToGlossary(word){closeDialog();state.tool='glossary';state.glossaryQuery=word;go('tools',false);$('#glossary-search').focus({preventScroll:true});$('#glossary-heading').scrollIntoView({block:'start',behavior:motionEnabled()?'smooth':'auto'});const match=[...$('#glossary-list').querySelectorAll('details')].find(el=>el.querySelector('summary span').textContent===word);if(match)match.open=true;}
 function moduleReflections(m){
- return `<section class="reflection-module minimal-story-module ${storyAvailable(m.id)?'is-open':'is-locked'}" aria-labelledby="reflection-module-${m.id}"><h3 id="reflection-module-${m.id}">${esc(m.name)}</h3><div class="module-art">${moduleArt(m)}</div></section>`;
+ const ready=storyAvailable(m.id)&&moduleState(m.id).suppliedReflection;
+ return `<section class="reflection-module minimal-story-module ${storyAvailable(m.id)?'is-open':'is-locked'}" aria-labelledby="reflection-module-${m.id}"><h3 id="reflection-module-${m.id}">${esc(m.name)}</h3>${ready?`<button class="module-art module-reading-button" data-module-reflection="${m.id}" aria-label="Read ${esc(ready.title)}" aria-haspopup="dialog">${moduleArt(m)}</button>`:`<div class="module-art">${moduleArt(m)}</div>`}</section>`;
+}
+async function openSuppliedReflection(id){
+ if(!storyAvailable(id))return;
+ try{await ensureStories()}catch{showToast('The reading could not be loaded. Please try again.');return}
+ const reflection=moduleState(id).suppliedReflection;
+ if(!reflection)return;
+ openDialog(`ACT I / STORY / ${moduleLabel(id).toUpperCase()}`,reflection.title,
+ `<div class="module-reading-content"><p><em>${esc(reflection.reference)}</em></p>${reflection.paragraphs.map(p=>paragraphs(p)).join('')}</div>`);
 }
 function conceptsView(){return heading('04','The Story So Far','Each week gives us a piece of the story. At the end of a module, we pause to bring those readings together, notice what connects them, and see how they lead us toward Jesus. It is a chance to look back together before we take the next step.','3 MODULES + INTERLUDE')+curriculum.modules.map(moduleReflections).join('');}
 
@@ -129,6 +138,7 @@ function guide(n){const s=curriculum.sessions[n-1];openDialog(`${weekLabel(s.dat
 async function openLesson(id){const l=catalog.lessons.find(l=>l.id===id);if(l?.status!=='available')return;const version=openDialog('PASTORAL COMMENTARY',l.title,'<p role="status">Opening commentary…</p>');try{const data=await fetchJSON(`${$('meta[name="lesson-base"]').content}/${encodeURIComponent(id)}/lesson.json`,{cache:'no-store'});if(version!==modalVersion||!$('#detail').open)return;commentaryTextControls();$('#dialog-body').innerHTML=`<h2 id="dialog-title">${esc(data.title)}</h2><section class="commentary-opening" aria-labelledby="commentary-opening-title"><h3 id="commentary-opening-title">Before You Begin</h3>${commentaryParagraphs(commentaryPreface)}<p class="commentary-authority"><strong>${esc(commentaryAuthority)}</strong></p></section>${commentaryParagraphs(commentaryIntroduction(data.introduction))}${data.points.map((p,i)=>`<section><h3>${i+1}. ${esc(p.title)}</h3><div class="point-reference">${esc(p.reference)}</div>${p.image?`<img src="${$('meta[name="lesson-base"]').content}/${id}/${encodeURIComponent(p.image)}" alt="${esc(p.alt)}" loading="lazy">`:''}${commentaryParagraphs(p.text)}</section>`).join('')}${data.finalWord?`<h3>A final word</h3>${commentaryParagraphs(data.finalWord)}`:''}<p class="annotation">Teaching supplied by the pastors of EIC Paris.</p>`;}catch{if(version===modalVersion)$('#dialog-body').innerHTML='<h2 id="dialog-title">Commentary unavailable</h2><p>Please try again later. The teaching may not yet be available for this study week.</p>';}}
 function wireModal(){ $('#dialog-body').querySelectorAll('[data-glossary-jump]').forEach(b=>b.onclick=()=>jumpToGlossary(b.dataset.glossaryJump)); $('#dialog-body').querySelectorAll('[data-ref]').forEach(b=>b.onclick=()=>openReference(b.dataset.ref));$('#dialog-body').querySelectorAll('[data-study]').forEach(b=>b.onclick=()=>{closeDialog();pickWeek(b.dataset.study);go('studies')});$('#dialog-body').querySelectorAll('[data-read]').forEach(b=>b.onclick=()=>{closeDialog();pickWeek(b.dataset.read);go('reading')});}
 function wire(){
+ document.querySelectorAll('[data-module-reflection]').forEach(b=>b.onclick=()=>openSuppliedReflection(Number(b.dataset.moduleReflection)));
  document.querySelectorAll('[data-module-jump]').forEach(b=>b.onclick=()=>$('#reflection-module-'+b.dataset.moduleJump).scrollIntoView({block:'start',behavior:motionEnabled()?'smooth':'auto'}));
  $('[data-glossary-all]')?.addEventListener('click',()=>{state.glossaryQuery='';render();$('#glossary-search').focus({preventScroll:true});$('#glossary-heading').scrollIntoView({block:'start'})});
  $('#week')?.addEventListener('change',e=>{pickWeek(e.target.value);render();$('#week').focus({preventScroll:true})});
@@ -168,7 +178,7 @@ async function refreshReleases(){
 }
 window.addEventListener('focus',refreshReleases);
 setInterval(()=>{if(!document.hidden)refreshReleases()},60000);
-async function start(){try{[curriculum,bible,catalog,journey,weeklyStudy]=await Promise.all([fetchJSON('./curriculum.json?v=week06-20261116'),fetchJSON('./data.json'),fetchJSON($('meta[name="lesson-catalog"]').content,{cache:'no-store'}),fetchJSON('./journey.json?v=week06-20261116'),fetchJSON('./weekly-study.json',{cache:'no-store'})]);await loadReflections();completed=readProgress();if(curriculum.modules.some(m=>storyAvailable(m.id)))await ensureStories();go(location.hash.slice(1)||'introduction',false);}catch{$('#view').innerHTML='<div class="error"><h2>The study could not be opened</h2><p>Please check your connection, then reload the page.</p><button id="retry" class="primary-button">Try again</button></div>';$('#retry').onclick=start}}
+async function start(){try{[curriculum,bible,catalog,journey,weeklyStudy]=await Promise.all([fetchJSON('./curriculum.json?v=44179fc35315'),fetchJSON('./data.json'),fetchJSON($('meta[name="lesson-catalog"]').content,{cache:'no-store'}),fetchJSON('./journey.json?v=week06-20261116'),fetchJSON('./weekly-study.json',{cache:'no-store'})]);await loadReflections();completed=readProgress();if(curriculum.modules.some(m=>storyAvailable(m.id)))await ensureStories();go(location.hash.slice(1)||'introduction',false);}catch{$('#view').innerHTML='<div class="error"><h2>The study could not be opened</h2><p>Please check your connection, then reload the page.</p><button id="retry" class="primary-button">Try again</button></div>';$('#retry').onclick=start}}
 start();
 
 
