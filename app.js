@@ -6,6 +6,15 @@ import {concepts,glossary,analyze,groupSessions} from './study.js?v=20261012-wee
 import {glossaryForWeek} from './weekly-vocabulary.js?v=20261012-weekly';
 import {resources,methodGuide} from './resources.js';
 import {parseProgress,weekOpen,eligibleProgress,toggleCompleted,moduleCompleted,storyOpen} from './progress.js?v=20261010-0600';
+// Native keyboard and field behavior differs on iOS and Android. Layout follows the viewport.
+const ua = navigator.userAgent;
+if (/Android/i.test(ua) || navigator.userAgentData?.platform === 'Android') {
+  document.documentElement.dataset.mobilePlatform = 'android';
+  const viewport = document.querySelector('meta[name="viewport"]');
+  viewport.content += ', interactive-widget=resizes-content';
+} else if (/iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+  document.documentElement.dataset.mobilePlatform = 'ios';
+}
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const paragraphs=s=>String(s||'').split(/\n\s*\n/).filter(Boolean).map(p=>`<p>${esc(p).replace(/\n/g,'<br>')}</p>`).join('');
@@ -241,5 +250,5 @@ function wireJourney(){
 window.addEventListener('storage',async e=>{if(curriculum&&e.key==='luke-acts-'+progressKey()){completed=readProgress();if(curriculum.modules.some(m=>storyAvailable(m.id)))try{await ensureStories()}catch{}if(!$('#detail').open)render();}});
 
 const sectionScenes={introduction:['intro','Introduction','Enter the story.'],reading:['read','Read','Listen to the text.'],studies:['studies','Pastoral Commentaries','Pastoral teaching, one week at a time.'],story:['story','Story','See the threads come together.'],tools:['tools','Tools','Look closer at the words.'],resources:['resources','Resources','Explore a little further.']};
-function sectionBanner(){const [id,title,copy]=sectionScenes[state.view];return `${['reading','studies','story','tools','resources'].includes(state.view)?`<div class="section-banner" aria-label="${title}">${id?`<img src="./assets/banner-${id}.webp?v=20261012-diversity" alt="" width="1536" height="512" decoding="async">`:""}<div><span class="eyebrow">FROM BETHLEHEM TO THE NATIONS · ACT I</span><p class="banner-title">${title}</p><p>${copy}</p></div></div>`:''}<div class="location-trail" aria-label="Your place in the study">Act I <span aria-hidden="true">/</span> ${esc(navs.find(n=>n[0]===state.view)[1])}${['reading','studies','commentaries'].includes(state.view)?` <span aria-hidden="true">/</span> ${esc(weekLabel(session().date))}`:state.view==='tools'?` <span aria-hidden="true">/</span> ${esc({words:'Repeated words',glossary:'Glossary',tsk:'TSK Bible Concordance'}[state.tool])}`:''}</div>`;}
+function sectionBanner(){const [id,title,copy]=sectionScenes[state.view];return `${['reading','studies','story','tools','resources'].includes(state.view)?`<div class="section-banner" data-section="${state.view}" aria-label="${title}">${id?`<img src="./assets/banner-${id}.webp?v=20261012-diversity" alt="" width="1536" height="512" decoding="async">`:""}<div><span class="eyebrow">FROM BETHLEHEM TO THE NATIONS · ACT I</span><p class="banner-title">${title}</p><p>${copy}</p></div></div>`:''}<div class="location-trail" aria-label="Your place in the study">Act I <span aria-hidden="true">/</span> ${esc(navs.find(n=>n[0]===state.view)[1])}${['reading','studies','commentaries'].includes(state.view)?` <span aria-hidden="true">/</span> ${esc(weekLabel(session().date))}`:state.view==='tools'?` <span aria-hidden="true">/</span> ${esc({words:'Repeated words',glossary:'Glossary',tsk:'TSK Bible Concordance'}[state.tool])}`:''}</div>`;}
 function updateLocation(){const label=navs.find(n=>n[0]===state.view)[2];$('.breadcrumb').innerHTML=`<span class="crumb-series">Luke–Acts / Act I</span><strong aria-current="page">${esc(label)}</strong>`;}
