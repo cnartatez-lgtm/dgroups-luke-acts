@@ -1,0 +1,20 @@
+{
+  "title": "Listening Together",
+  "edition": "World English Bible Classic",
+  "weeks": [
+    {
+      "number": 1,
+      "approved": true,
+      "releaseAt": "2020-01-06T07:00:00+01:00",
+      "reference": "Luke 2:19",
+      "scripture": "But Mary kept all these sayings, pondering them in her heart."
+    },
+    {
+      "number": 2,
+      "approved": true,
+      "releaseAt": "2020-01-13T07:00:00+01:00",
+      "reference": "Luke 2:20",
+      "scripture": "The shepherds returned, glorifying and praising God for all the things that they had heard and seen, just as it was told them."
+    }
+  ]
+}

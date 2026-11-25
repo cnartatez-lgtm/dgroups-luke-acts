@@ -68,5 +68,6 @@ export function wireSceneMotion(root) {
    scene.removeEventListener('pointerup',reset);
   };
  });
+ root.querySelectorAll('.guide-cover').forEach(cover=>observer?.observe(cover));
  return ()=>{observer?.disconnect();cleanups.forEach(cleanup=>cleanup());};
 }

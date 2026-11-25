@@ -15,9 +15,9 @@ export const methodGuide=[
  ['Observation','What does the text say? Who is there, what happens, and which words stand out? Look carefully before you explain.'],
  ['Interpretation','What did this mean for the first readers? What is the main point God was teaching them?'],
  ['Application','How does this passage point to Jesus, and what does it mean for us today? How will we respond?'],
- ['Encourage and care for one another','Talk about how you will live what you learned this week, and with whom you could share it. Ask how each person and their family are doing. Share your needs, and care for one another.'],
- ['Pray together','Thank God for who he is and for his gifts. Confess your sins to him. Pray for one another, and for the people in your life who need to hear the good news. The facilitator invites someone to pray, and this changes each time.'],
- ['Plan your next meeting','Agree on the day, time and place of your next meeting, and choose who will be the next facilitator.']
+ ['Encourage and Care for One Another','Talk about how you will live what you learned this week, and with whom you could share it. Ask how each person and their family are doing. Share your needs, and care for one another.'],
+ ['Pray Together','Thank God for who he is and for his gifts. Confess your sins to him. Pray for one another, and for the people in your life who need to hear the good news. Your Facilitator invites someone to pray, and this changes each time.'],
+ ['Plan Your Next Meeting','Agree on the day, time and place of your next meeting, and choose who will serve as Facilitator.']
 ];
 
 export const categoryNotes = {

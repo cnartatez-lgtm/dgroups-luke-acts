@@ -165,7 +165,10 @@
   .topbar {padding-top: max(.5rem, var(--safe-top));}
 }
 
-/* The compact rail keeps all six sections within reach on tablets and rotated phones. */
+#navigation a[href="#introduction"] svg {width: 1.375rem; height: 1.375rem;}
+#navigation a[href="#downloads"] svg {width: 1.5rem; height: 1.5rem;}
+
+/* The compact rail keeps all sections within reach on tablets and rotated phones. */
 @media screen and (min-width: 641px) and (max-width: 1100px) {
   :root {--study-rail: clamp(5rem, 10vw, 6rem);}
   .sidebar {
@@ -207,7 +210,9 @@
   .sidebar {height: var(--nav-height); padding-top: var(--safe-top); padding-inline: var(--safe-left) var(--safe-right);}
   #navigation {
     display: grid !important;
-    grid-template-columns: repeat(6, minmax(max-content, 1fr));
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(max-content, 1fr);
     height: 3.75rem;
     align-items: stretch;
   }
@@ -261,12 +266,113 @@
   .commentary-font-controls output {min-width: 4ch;}
 }
 
-.group-guide > :is(p, ol, ul), .tool-help {
+.tool-help {
   max-width: 72ch;
   font-size: 1rem;
   line-height: 1.75;
   color: var(--ink);
 }
-.group-guide :is(ol, ul) {padding-inline-start: 1.6em;}
-.group-guide li + li {margin-block-start: .55em;}
-.group-guide p + p, .tool-help + .tool-help {margin-block-start: .75em;}
+.tool-help + .tool-help {margin-block-start: .75em;}
+
+/* The group guide and the module cards share the series' reading typography. */
+.intro-reading :is(.group-guide > h3, .section-subhead h3, .module-body h3) {
+  font: 400 clamp(1.625rem, 1.5rem + .35vw, 1.75rem)/1.2 var(--serif);
+  color: var(--ink);
+  text-wrap: balance;
+}
+.intro-reading :is(.guide-copy, .module-body > p) {
+  max-inline-size: 70ch;
+  font: 400 1rem/1.7 var(--sans);
+  color: var(--ink);
+  color: color-mix(in srgb, var(--muted) 65%, var(--ink));
+}
+.intro-reading :is(.guide-copy h4, .guide-copy strong, .module-body .big-question) {
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.guide-sections {
+  container: group-guide / inline-size;
+  padding-inline: clamp(1rem, 2.4vw, 1.75rem);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+}
+.group-guide {padding-block: clamp(1.25rem, 2.4vw, 1.85rem);}
+.group-guide + .group-guide {border-block-start: 1px solid var(--line);}
+.group-guide > h3 {margin: 0 0 .75rem;}
+.guide-copy {min-inline-size: 0;}
+.guide-copy > * {margin: 0;}
+.guide-copy > * + * {margin-block-start: .85em;}
+.guide-copy > h4 {margin-block-start: 1.25em;}
+.guide-copy :is(ol, ul) {padding-inline-start: 1.4em;}
+.guide-copy li + li {margin-block-start: .55em;}
+.guide-copy li::marker {font-weight: 600; color: var(--accent);}
+@container group-guide (min-width: 46rem) {
+  .group-guide {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(0, 2.1fr);
+    gap: 2rem;
+    align-items: start;
+  }
+  .group-guide > h3 {margin: 0;}
+}
+.intro-modules {margin-block-start: clamp(2rem, 4vw, 3.25rem);}
+.intro-modules .module-card {display: flex;}
+.intro-modules .module-body .eyebrow {
+  display: block;
+  font-size: .6875rem;
+  line-height: 1.5;
+  letter-spacing: .06em;
+  text-wrap: balance;
+}
+.intro-modules .section-subhead > span {font-size: .8125rem;}
+
+/* The study overview is a disclosure alongside the other footer information. */
+@media screen {
+  .study-footer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) fit-content(32rem) auto;
+    align-items: start;
+    gap: .5rem clamp(1rem, 2vw, 2rem);
+  }
+  .study-footer .search-overview {
+    min-inline-size: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+  .study-footer .search-overview summary, .study-footer #sources {
+    min-block-size: 48px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: .6rem;
+    font: 600 .8125rem/1.45 var(--sans);
+    color: var(--accent);
+  }
+  .study-footer #sources {justify-self: start;}
+  .study-footer summary::-webkit-details-marker {display: none;}
+  .study-footer summary::before {
+    content: "";
+    inline-size: .4rem;
+    block-size: .4rem;
+    flex: none;
+    border: solid currentColor;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(-45deg);
+  }
+  .study-footer details[open] summary::before {transform: rotate(45deg);}
+  .study-footer .search-overview p {font: 400 .9375rem/1.65 var(--sans); color: var(--ink);}
+  .study-footer .search-overview a {min-block-size: 48px; font-size: .875rem; color: var(--accent);}
+}
+@media screen and (max-width: 1100px) {
+  .study-footer {grid-template-columns: minmax(0, 1fr) auto;}
+  .study-footer .footer-identity {grid-column: 1 / -1;}
+}
+@media screen and (max-width: 540px) {
+  .study-footer {grid-template-columns: minmax(0, 1fr); row-gap: 0;}
+}

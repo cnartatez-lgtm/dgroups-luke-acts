@@ -1,0 +1,79 @@
+/* Keep the platform selector when its engine cannot style the open list. */
+@supports (appearance: base-select) and selector(::picker(select)) {
+  @media (pointer: coarse) {
+    #view select,
+    #view select::picker(select) {
+      appearance: base-select;
+    }
+
+    #view select {
+      align-items: center;
+      background-image: none;
+      column-gap: 8px;
+      padding-inline: 12px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    #view select::picker-icon {
+      color: var(--accent);
+      flex: none;
+    }
+
+    #view select::picker(select) {
+      inline-size: anchor-size(width);
+      max-inline-size: calc(100vw - 1.5rem);
+      max-block-size: min(48dvh, 23rem);
+      overflow: auto;
+      overscroll-behavior: contain;
+      margin-block: .25rem;
+      padding: .25rem;
+      border: 1px solid var(--line);
+      border-radius: .75rem;
+      background: var(--paper);
+      color: var(--ink);
+      box-shadow: 0 8px 22px rgb(0 0 0 / 18%);
+      font: 1rem/1.4 var(--sans);
+    }
+
+    #view option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-block-size: 48px;
+      padding: 10px 11px;
+      border-radius: .4rem;
+      white-space: normal;
+      text-wrap: balance;
+      overflow-wrap: anywhere;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    #view option:checked {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    #view option:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: -3px;
+    }
+  }
+
+  /* A phone's week list needs its own scrolling space, including at large type. */
+  @media (pointer: coarse) and (max-width: 640px) {
+    #view #week::picker(select) {
+      position: fixed;
+      position-area: none;
+      position-try-fallbacks: none;
+      inset: auto max(8px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left));
+      inline-size: auto;
+      max-inline-size: none;
+      max-block-size: min(64dvh, 23rem);
+      margin: 0;
+    }
+  }
+}

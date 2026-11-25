@@ -1,4 +1,25 @@
 import {motionEnabled} from './motion.js?v=20261010-motion2';
+
+const connectingWords = new Set('a an and as at but by for from in nor of on or per the to via with'.split(' '));
+const titleWord = /[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*/gu;
+
+// Format editorial headings at display time, leaving readings and lookup keys intact.
+export function englishTitleCase(value) {
+  const title = String(value ?? '');
+  if (/^the facilitator$/i.test(title)) return 'Facilitator';
+  return title.replace(/[^:;.!?·|—]+/gu, phrase => {
+    const words = [...phrase.matchAll(titleWord)];
+    const first = words[0]?.index;
+    const last = words.at(-1)?.index;
+    return phrase.replace(titleWord, (word, offset) => {
+      const lower = word.toLowerCase();
+      if (offset !== first && offset !== last && connectingWords.has(lower)) return lower;
+      if (/^\p{Ll}.*\p{Lu}/u.test(word)) return word;
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    });
+  });
+}
+
 // A topic is a self-contained reading, never a doorway into the full module.
 export function selectStoryTopic(reading, sectionId) {
  const section=reading?.sections?.find(s=>s.id===sectionId);

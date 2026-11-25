@@ -1,6 +1,6 @@
 // Public welcome, module previews and reference glossary. Full reflections remain private until release.
 export const pastoralIntroduction = {
-  "title": "A word before we begin",
+  "title": "A Word Before We Begin",
   "welcome": "We all come with different stories. Some of us have read the Bible for many years. Others are opening it for the first time, with many questions. Many of us are reading in a language that is not our first language. That is fine. Here there is room to slow down, to ask what a word means, and to help one another understand. Our hope is simple: as we know Jesus more clearly, we will trust him more deeply and love one another more faithfully.",
   "credit": "Study notes developed by Associate Pastor Christian Nartatez at EIC Rueil-Malmaison, under the supervision of the Senior Pastors of EIC Paris."
 };

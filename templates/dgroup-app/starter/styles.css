@@ -1,0 +1,36 @@
+:root {
+  color-scheme: light dark;
+  --paper: #fffdf8;
+  --ink: #2c2024;
+  --accent: #853149;
+  --accent-soft: #f6e9ed;
+  --line: #cfbfb7;
+  --serif: Georgia, serif;
+  --sans: system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {--paper: #262124; --ink: #fff6ee; --accent: #f4a4b9; --accent-soft: #46303a; --line: #76626b;}
+  #home-tutorial {--tutorial-copy-ink: #fff6ee;}
+}
+* {box-sizing: border-box;}
+[hidden] {display: none !important;}
+body {margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.55 var(--sans);}
+main {max-width: 54rem; padding: clamp(1rem, 4vw, 3rem); margin: auto;}
+header, section {padding-block: 1.25rem;}
+header {border-bottom: 1px solid var(--line);}
+header p, h1, h2, h3 {margin: 0;}
+h1, h2, h3 {font-family: var(--serif); font-weight: normal;}
+h1 {font-size: clamp(2.4rem, 7vw, 4rem);}
+h2 {font-size: 2rem;}
+nav, .filters {display: flex; flex-wrap: wrap; gap: 1rem;}
+nav a {display: inline-flex; align-items: center; min-height: 48px; color: var(--accent);}
+nav a[aria-current="page"] {font-weight: bold;}
+button, select {min-height: 48px; min-width: 48px; color: var(--ink); font: inherit;}
+button {cursor: pointer;}
+button:focus-visible, select:focus-visible, a:focus-visible {outline: 3px solid var(--accent); outline-offset: 2px;}
+.filters {margin-block: 1rem;}
+.filters label {display: grid; gap: .25rem; flex: 1 1 12rem; min-width: 0;}
+select {width: 100%; background-color: var(--paper); border: 1px solid var(--line); border-radius: .4rem;}
+#reader-controls button {border: 1px solid var(--line); border-radius: .35rem; background: var(--paper);}
+#passages article {border-inline-start: 3px solid var(--accent); padding-inline-start: 1rem; margin-block: 1.5rem;}
+.scripture {font: var(--reading-size, 1.25rem)/1.6 var(--serif);}

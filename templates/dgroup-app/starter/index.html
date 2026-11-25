@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>D-Group Study</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./tutorial.css">
+  <link rel="stylesheet" href="./selectors.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <main id="main">
+    <header>
+      <p>D-Group Bible Study</p>
+      <h1 id="series-title">D-Group Study</h1>
+      <nav id="navigation" aria-label="Study sections">
+        <a href="#home">Home</a>
+        <a href="#reading">Read</a>
+      </nav>
+    </header>
+    <div id="view">
+      <section id="home" aria-labelledby="home-title">
+        <h2 id="home-title">Meet With Your Group</h2>
+        <p>Read the passage aloud. Share what you notice, consider its meaning and pray together.</p>
+        <button id="home-launch" type="button" class="read-tutorial-button" data-tutorial="home" aria-haspopup="dialog" aria-controls="home-tutorial">Home Tutorial</button>
+      </section>
+      <section id="reading" aria-labelledby="read-title" hidden>
+        <h2 id="read-title">Read the Text</h2>
+        <button id="read-launch" type="button" class="read-tutorial-button" data-tutorial="reading" aria-haspopup="dialog" aria-controls="home-tutorial">Read Tutorial</button>
+        <div class="filters" id="filters">
+          <label>Meeting Rhythm<select id="rhythm"><option value="1">Every Week</option><option value="2">Every Two Weeks</option></select></label>
+          <label><span id="week-label">Study Week</span><select id="week"></select></label>
+        </div>
+        <div id="reader-controls" role="group" aria-label="Bible text size">
+          <button id="smaller" type="button" aria-label="Smaller Bible text">A−</button>
+          <button id="larger" type="button" aria-label="Larger Bible text">A+</button>
+        </div>
+        <div id="passages" aria-live="polite"></div>
+        <p id="edition"></p>
+      </section>
+    </div>
+    <p id="status" role="status"></p>
+  </main>
+</body>
+</html>
