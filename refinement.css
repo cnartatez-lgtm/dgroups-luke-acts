@@ -260,3 +260,13 @@
   .commentary-font-controls {gap: .25rem;}
   .commentary-font-controls output {min-width: 4ch;}
 }
+
+.group-guide > :is(p, ol, ul), .tool-help {
+  max-width: 72ch;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--ink);
+}
+.group-guide :is(ol, ul) {padding-inline-start: 1.6em;}
+.group-guide li + li {margin-block-start: .55em;}
+.group-guide p + p, .tool-help + .tool-help {margin-block-start: .75em;}
